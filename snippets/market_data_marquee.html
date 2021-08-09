@@ -1,0 +1,25 @@
+<div class="ticker-wrap">
+    <div class="ticker">
+        <cms:pages masterpage='temp_commodity_marquee.php'>
+            <cms:if k_absolute_count eq '1' >
+                    <cms:show_repeatable 'market_updates_marquee' >
+                    <div class="ticker_item">
+                        <cms:show gcx_market_update_symbol />&nbsp;&nbsp;
+                        <cms:show gcx_market_update_current_price />&nbsp;
+
+                         <cms:if gcx_market_update_price_change eq '2' >
+                                                    -&nbsp;
+                                                    <cms:else/>
+                                          <i class="fas fa-lg <cms:if gcx_market_update_price_change eq '0' >fa-caret-up<cms:else/>fa-caret-down</cms:if>" style="<cms:if gcx_market_update_price_change eq '0'>color: #00f000<cms:else/>color: #f00</cms:if>;"></i>&nbsp;
+                                            </cms:if>
+
+                        <span style=""> <cms:show gcx_market_update_unit_change /></span>&nbsp;                    
+
+                    </div>
+
+                </cms:show_repeatable>
+                <div class="ticker_item"><cms:show global_commodity_price_source />&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </cms:if>
+        </cms:pages>
+    </div>
+</div>

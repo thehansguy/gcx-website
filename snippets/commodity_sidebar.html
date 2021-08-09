@@ -1,0 +1,22 @@
+<div class="col-md-3" >
+
+    <!-- Search Widget -->
+    <!-- Categories Widget -->
+    <cms:if k_is_page >
+        <div class="panel bold">
+            <div class="panel-heading sun-flower">Commodity List</div>
+            <div class="panel-body color black">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled">
+                            <cms:pages masterpage='commodity.php'>
+                                <li><a href="<cms:show k_page_link />"><cms:show gcx_commodity_name /></a></li><br>
+                            </cms:pages>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </cms:if>
+
+</div>

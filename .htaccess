@@ -1,0 +1,422 @@
+Options +SymLinksIfOwnerMatch -MultiViews
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+#If your website is installed in a subfolder, change the line below to reflect the path to the subfolder.
+#e.g. for http://www.example.com/subdomain1/subdomain2/ make it RewriteBase /subdomain1/subdomain2
+RewriteBase /
+
+#If you wish to use a custom 404 page, place a file named 404.php in your website's root and uncomment the line below.
+#If your website is installed in a subfolder, change the line below to reflect the path to the subfolder.
+#e.g. for http://www.example.com/subdomain1/subdomain2/ make it ErrorDocument 404 /subdomain1/subdomain2/404.php
+#ErrorDocument 404 /404.php
+
+#If your site begins with 'www', uncomment the following two lines
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+
+#DO NOT EDIT BELOW THIS
+
+RewriteRule ^index.php$ "" [R=301,L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule . - [L]
+
+#who_we_are.php
+RewriteRule ^who_we_are$ "$0/" [R=301,L,QSA]
+RewriteRule ^who_we_are/$ who_we_are.php [L,QSA]
+RewriteRule ^who_we_are/.*?([^\.\/]*)\.html$ who_we_are.php?pname=$1 [L,QSA]
+RewriteRule ^who_we_are/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ who_we_are.php?d=$1$2$3 [L,QSA]
+RewriteRule ^who_we_are/[^\.]*?([^/\.]*)/$ who_we_are.php?fname=$1 [L,QSA]
+RewriteRule ^who_we_are/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#warehousing.php
+RewriteRule ^warehousing$ "$0/" [R=301,L,QSA]
+RewriteRule ^warehousing/$ warehousing.php [L,QSA]
+RewriteRule ^warehousing/.*?([^\.\/]*)\.html$ warehousing.php?pname=$1 [L,QSA]
+RewriteRule ^warehousing/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ warehousing.php?d=$1$2$3 [L,QSA]
+RewriteRule ^warehousing/[^\.]*?([^/\.]*)/$ warehousing.php?fname=$1 [L,QSA]
+RewriteRule ^warehousing/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#vision_purpose.php
+RewriteRule ^vision_purpose$ "$0/" [R=301,L,QSA]
+RewriteRule ^vision_purpose/$ vision_purpose.php [L,QSA]
+RewriteRule ^vision_purpose/.*?([^\.\/]*)\.html$ vision_purpose.php?pname=$1 [L,QSA]
+RewriteRule ^vision_purpose/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ vision_purpose.php?d=$1$2$3 [L,QSA]
+RewriteRule ^vision_purpose/[^\.]*?([^/\.]*)/$ vision_purpose.php?fname=$1 [L,QSA]
+RewriteRule ^vision_purpose/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#trading_surveillance.php
+RewriteRule ^trading_surveillance$ "$0/" [R=301,L,QSA]
+RewriteRule ^trading_surveillance/$ trading_surveillance.php [L,QSA]
+RewriteRule ^trading_surveillance/.*?([^\.\/]*)\.html$ trading_surveillance.php?pname=$1 [L,QSA]
+RewriteRule ^trading_surveillance/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ trading_surveillance.php?d=$1$2$3 [L,QSA]
+RewriteRule ^trading_surveillance/[^\.]*?([^/\.]*)/$ trading_surveillance.php?fname=$1 [L,QSA]
+RewriteRule ^trading_surveillance/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#trading_operations.php
+RewriteRule ^trading_operations$ "$0/" [R=301,L,QSA]
+RewriteRule ^trading_operations/$ trading_operations.php [L,QSA]
+RewriteRule ^trading_operations/.*?([^\.\/]*)\.html$ trading_operations.php?pname=$1 [L,QSA]
+RewriteRule ^trading_operations/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ trading_operations.php?d=$1$2$3 [L,QSA]
+RewriteRule ^trading_operations/[^\.]*?([^/\.]*)/$ trading_operations.php?fname=$1 [L,QSA]
+RewriteRule ^trading_operations/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#temp_slider.php
+RewriteRule ^temp_slider$ "$0/" [R=301,L,QSA]
+RewriteRule ^temp_slider/$ temp_slider.php [L,QSA]
+RewriteRule ^temp_slider/.*?([^\.\/]*)\.html$ temp_slider.php?pname=$1 [L,QSA]
+RewriteRule ^temp_slider/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ temp_slider.php?d=$1$2$3 [L,QSA]
+RewriteRule ^temp_slider/[^\.]*?([^/\.]*)/$ temp_slider.php?fname=$1 [L,QSA]
+RewriteRule ^temp_slider/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#temp_market_updates.php
+RewriteRule ^temp_market_updates$ "$0/" [R=301,L,QSA]
+RewriteRule ^temp_market_updates/$ temp_market_updates.php [L,QSA]
+RewriteRule ^temp_market_updates/.*?([^\.\/]*)\.html$ temp_market_updates.php?pname=$1 [L,QSA]
+RewriteRule ^temp_market_updates/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ temp_market_updates.php?d=$1$2$3 [L,QSA]
+RewriteRule ^temp_market_updates/[^\.]*?([^/\.]*)/$ temp_market_updates.php?fname=$1 [L,QSA]
+RewriteRule ^temp_market_updates/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#temp_links.php
+RewriteRule ^temp_links$ "$0/" [R=301,L,QSA]
+RewriteRule ^temp_links/$ temp_links.php [L,QSA]
+RewriteRule ^temp_links/.*?([^\.\/]*)\.html$ temp_links.php?pname=$1 [L,QSA]
+RewriteRule ^temp_links/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ temp_links.php?d=$1$2$3 [L,QSA]
+RewriteRule ^temp_links/[^\.]*?([^/\.]*)/$ temp_links.php?fname=$1 [L,QSA]
+RewriteRule ^temp_links/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#temp_faq.php
+RewriteRule ^temp_faq$ "$0/" [R=301,L,QSA]
+RewriteRule ^temp_faq/$ temp_faq.php [L,QSA]
+RewriteRule ^temp_faq/.*?([^\.\/]*)\.html$ temp_faq.php?pname=$1 [L,QSA]
+RewriteRule ^temp_faq/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ temp_faq.php?d=$1$2$3 [L,QSA]
+RewriteRule ^temp_faq/[^\.]*?([^/\.]*)/$ temp_faq.php?fname=$1 [L,QSA]
+RewriteRule ^temp_faq/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#temp_commodity_marquee.php
+RewriteRule ^temp_commodity_marquee$ "$0/" [R=301,L,QSA]
+RewriteRule ^temp_commodity_marquee/$ temp_commodity_marquee.php [L,QSA]
+RewriteRule ^temp_commodity_marquee/.*?([^\.\/]*)\.html$ temp_commodity_marquee.php?pname=$1 [L,QSA]
+RewriteRule ^temp_commodity_marquee/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ temp_commodity_marquee.php?d=$1$2$3 [L,QSA]
+RewriteRule ^temp_commodity_marquee/[^\.]*?([^/\.]*)/$ temp_commodity_marquee.php?fname=$1 [L,QSA]
+RewriteRule ^temp_commodity_marquee/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#services.php
+RewriteRule ^services$ "$0/" [R=301,L,QSA]
+RewriteRule ^services/$ services.php [L,QSA]
+RewriteRule ^services/.*?([^\.\/]*)\.html$ services.php?pname=$1 [L,QSA]
+RewriteRule ^services/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ services.php?d=$1$2$3 [L,QSA]
+RewriteRule ^services/[^\.]*?([^/\.]*)/$ services.php?fname=$1 [L,QSA]
+RewriteRule ^services/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#rules_regulations.php
+RewriteRule ^rules_regulations$ "$0/" [R=301,L,QSA]
+RewriteRule ^rules_regulations/$ rules_regulations.php [L,QSA]
+RewriteRule ^rules_regulations/.*?([^\.\/]*)\.html$ rules_regulations.php?pname=$1 [L,QSA]
+RewriteRule ^rules_regulations/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ rules_regulations.php?d=$1$2$3 [L,QSA]
+RewriteRule ^rules_regulations/[^\.]*?([^/\.]*)/$ rules_regulations.php?fname=$1 [L,QSA]
+RewriteRule ^rules_regulations/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#risk_management.php
+RewriteRule ^risk_management$ "$0/" [R=301,L,QSA]
+RewriteRule ^risk_management/$ risk_management.php [L,QSA]
+RewriteRule ^risk_management/.*?([^\.\/]*)\.html$ risk_management.php?pname=$1 [L,QSA]
+RewriteRule ^risk_management/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ risk_management.php?d=$1$2$3 [L,QSA]
+RewriteRule ^risk_management/[^\.]*?([^/\.]*)/$ risk_management.php?fname=$1 [L,QSA]
+RewriteRule ^risk_management/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#procurement.php
+RewriteRule ^procurement$ "$0/" [R=301,L,QSA]
+RewriteRule ^procurement/$ procurement.php [L,QSA]
+RewriteRule ^procurement/.*?([^\.\/]*)\.html$ procurement.php?pname=$1 [L,QSA]
+RewriteRule ^procurement/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ procurement.php?d=$1$2$3 [L,QSA]
+RewriteRule ^procurement/[^\.]*?([^/\.]*)/$ procurement.php?fname=$1 [L,QSA]
+RewriteRule ^procurement/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#partners.php
+RewriteRule ^partners$ "$0/" [R=301,L,QSA]
+RewriteRule ^partners/$ partners.php [L,QSA]
+RewriteRule ^partners/.*?([^\.\/]*)\.html$ partners.php?pname=$1 [L,QSA]
+RewriteRule ^partners/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ partners.php?d=$1$2$3 [L,QSA]
+RewriteRule ^partners/[^\.]*?([^/\.]*)/$ partners.php?fname=$1 [L,QSA]
+RewriteRule ^partners/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#news_feature.php
+RewriteRule ^news_feature$ "$0/" [R=301,L,QSA]
+RewriteRule ^news_feature/$ news_feature.php [L,QSA]
+RewriteRule ^news_feature/.*?([^\.\/]*)\.html$ news_feature.php?pname=$1 [L,QSA]
+RewriteRule ^news_feature/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ news_feature.php?d=$1$2$3 [L,QSA]
+RewriteRule ^news_feature/[^\.]*?([^/\.]*)/$ news_feature.php?fname=$1 [L,QSA]
+RewriteRule ^news_feature/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#news.php
+RewriteRule ^news$ "$0/" [R=301,L,QSA]
+RewriteRule ^news/$ news.php [L,QSA]
+RewriteRule ^news/.*?([^\.\/]*)\.html$ news.php?pname=$1 [L,QSA]
+RewriteRule ^news/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ news.php?d=$1$2$3 [L,QSA]
+RewriteRule ^news/[^\.]*?([^/\.]*)/$ news.php?fname=$1 [L,QSA]
+RewriteRule ^news/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_type.php
+RewriteRule ^membership_type$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_type/$ membership_type.php [L,QSA]
+RewriteRule ^membership_type/.*?([^\.\/]*)\.html$ membership_type.php?pname=$1 [L,QSA]
+RewriteRule ^membership_type/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_type.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_type/[^\.]*?([^/\.]*)/$ membership_type.php?fname=$1 [L,QSA]
+RewriteRule ^membership_type/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_process.php
+RewriteRule ^membership_process$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_process/$ membership_process.php [L,QSA]
+RewriteRule ^membership_process/.*?([^\.\/]*)\.html$ membership_process.php?pname=$1 [L,QSA]
+RewriteRule ^membership_process/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_process.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_process/[^\.]*?([^/\.]*)/$ membership_process.php?fname=$1 [L,QSA]
+RewriteRule ^membership_process/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_obligation.php
+RewriteRule ^membership_obligation$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_obligation/$ membership_obligation.php [L,QSA]
+RewriteRule ^membership_obligation/.*?([^\.\/]*)\.html$ membership_obligation.php?pname=$1 [L,QSA]
+RewriteRule ^membership_obligation/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_obligation.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_obligation/[^\.]*?([^/\.]*)/$ membership_obligation.php?fname=$1 [L,QSA]
+RewriteRule ^membership_obligation/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_list.php
+RewriteRule ^membership_list$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_list/$ membership_list.php [L,QSA]
+RewriteRule ^membership_list/.*?([^\.\/]*)\.html$ membership_list.php?pname=$1 [L,QSA]
+RewriteRule ^membership_list/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_list.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_list/[^\.]*?([^/\.]*)/$ membership_list.php?fname=$1 [L,QSA]
+RewriteRule ^membership_list/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_benefits.php
+RewriteRule ^membership_benefits$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_benefits/$ membership_benefits.php [L,QSA]
+RewriteRule ^membership_benefits/.*?([^\.\/]*)\.html$ membership_benefits.php?pname=$1 [L,QSA]
+RewriteRule ^membership_benefits/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_benefits.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_benefits/[^\.]*?([^/\.]*)/$ membership_benefits.php?fname=$1 [L,QSA]
+RewriteRule ^membership_benefits/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_application_form.php
+RewriteRule ^membership_application_form$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_application_form/$ membership_application_form.php [L,QSA]
+RewriteRule ^membership_application_form/.*?([^\.\/]*)\.html$ membership_application_form.php?pname=$1 [L,QSA]
+RewriteRule ^membership_application_form/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_application_form.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_application_form/[^\.]*?([^/\.]*)/$ membership_application_form.php?fname=$1 [L,QSA]
+RewriteRule ^membership_application_form/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#membership_application.php
+RewriteRule ^membership_application$ "$0/" [R=301,L,QSA]
+RewriteRule ^membership_application/$ membership_application.php [L,QSA]
+RewriteRule ^membership_application/.*?([^\.\/]*)\.html$ membership_application.php?pname=$1 [L,QSA]
+RewriteRule ^membership_application/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ membership_application.php?d=$1$2$3 [L,QSA]
+RewriteRule ^membership_application/[^\.]*?([^/\.]*)/$ membership_application.php?fname=$1 [L,QSA]
+RewriteRule ^membership_application/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#market_price_history.php
+RewriteRule ^market_price_history$ "$0/" [R=301,L,QSA]
+RewriteRule ^market_price_history/$ market_price_history.php [L,QSA]
+RewriteRule ^market_price_history/.*?([^\.\/]*)\.html$ market_price_history.php?pname=$1 [L,QSA]
+RewriteRule ^market_price_history/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ market_price_history.php?d=$1$2$3 [L,QSA]
+RewriteRule ^market_price_history/[^\.]*?([^/\.]*)/$ market_price_history.php?fname=$1 [L,QSA]
+RewriteRule ^market_price_history/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#market_intelligence.php
+RewriteRule ^market_intelligence$ "$0/" [R=301,L,QSA]
+RewriteRule ^market_intelligence/$ market_intelligence.php [L,QSA]
+RewriteRule ^market_intelligence/.*?([^\.\/]*)\.html$ market_intelligence.php?pname=$1 [L,QSA]
+RewriteRule ^market_intelligence/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ market_intelligence.php?d=$1$2$3 [L,QSA]
+RewriteRule ^market_intelligence/[^\.]*?([^/\.]*)/$ market_intelligence.php?fname=$1 [L,QSA]
+RewriteRule ^market_intelligence/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#market_data_downloads.php
+RewriteRule ^market_data_downloads$ "$0/" [R=301,L,QSA]
+RewriteRule ^market_data_downloads/$ market_data_downloads.php [L,QSA]
+RewriteRule ^market_data_downloads/.*?([^\.\/]*)\.html$ market_data_downloads.php?pname=$1 [L,QSA]
+RewriteRule ^market_data_downloads/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ market_data_downloads.php?d=$1$2$3 [L,QSA]
+RewriteRule ^market_data_downloads/[^\.]*?([^/\.]*)/$ market_data_downloads.php?fname=$1 [L,QSA]
+RewriteRule ^market_data_downloads/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#links.php
+RewriteRule ^links$ "$0/" [R=301,L,QSA]
+RewriteRule ^links/$ links.php [L,QSA]
+RewriteRule ^links/.*?([^\.\/]*)\.html$ links.php?pname=$1 [L,QSA]
+RewriteRule ^links/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ links.php?d=$1$2$3 [L,QSA]
+RewriteRule ^links/[^\.]*?([^/\.]*)/$ links.php?fname=$1 [L,QSA]
+RewriteRule ^links/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#investors.php
+RewriteRule ^investors$ "$0/" [R=301,L,QSA]
+RewriteRule ^investors/$ investors.php [L,QSA]
+RewriteRule ^investors/.*?([^\.\/]*)\.html$ investors.php?pname=$1 [L,QSA]
+RewriteRule ^investors/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ investors.php?d=$1$2$3 [L,QSA]
+RewriteRule ^investors/[^\.]*?([^/\.]*)/$ investors.php?fname=$1 [L,QSA]
+RewriteRule ^investors/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#internship.php
+RewriteRule ^internship$ "$0/" [R=301,L,QSA]
+RewriteRule ^internship/$ internship.php [L,QSA]
+RewriteRule ^internship/.*?([^\.\/]*)\.html$ internship.php?pname=$1 [L,QSA]
+RewriteRule ^internship/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ internship.php?d=$1$2$3 [L,QSA]
+RewriteRule ^internship/[^\.]*?([^/\.]*)/$ internship.php?fname=$1 [L,QSA]
+RewriteRule ^internship/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#grading.php
+RewriteRule ^grading$ "$0/" [R=301,L,QSA]
+RewriteRule ^grading/$ grading.php [L,QSA]
+RewriteRule ^grading/.*?([^\.\/]*)\.html$ grading.php?pname=$1 [L,QSA]
+RewriteRule ^grading/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ grading.php?d=$1$2$3 [L,QSA]
+RewriteRule ^grading/[^\.]*?([^/\.]*)/$ grading.php?fname=$1 [L,QSA]
+RewriteRule ^grading/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#functional_heads.php
+RewriteRule ^functional_heads$ "$0/" [R=301,L,QSA]
+RewriteRule ^functional_heads/$ functional_heads.php [L,QSA]
+RewriteRule ^functional_heads/.*?([^\.\/]*)\.html$ functional_heads.php?pname=$1 [L,QSA]
+RewriteRule ^functional_heads/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ functional_heads.php?d=$1$2$3 [L,QSA]
+RewriteRule ^functional_heads/[^\.]*?([^/\.]*)/$ functional_heads.php?fname=$1 [L,QSA]
+RewriteRule ^functional_heads/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#functional_areas.php
+RewriteRule ^functional_areas$ "$0/" [R=301,L,QSA]
+RewriteRule ^functional_areas/$ functional_areas.php [L,QSA]
+RewriteRule ^functional_areas/.*?([^\.\/]*)\.html$ functional_areas.php?pname=$1 [L,QSA]
+RewriteRule ^functional_areas/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ functional_areas.php?d=$1$2$3 [L,QSA]
+RewriteRule ^functional_areas/[^\.]*?([^/\.]*)/$ functional_areas.php?fname=$1 [L,QSA]
+RewriteRule ^functional_areas/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#feature_article.php
+RewriteRule ^feature_article$ "$0/" [R=301,L,QSA]
+RewriteRule ^feature_article/$ feature_article.php [L,QSA]
+RewriteRule ^feature_article/.*?([^\.\/]*)\.html$ feature_article.php?pname=$1 [L,QSA]
+RewriteRule ^feature_article/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ feature_article.php?d=$1$2$3 [L,QSA]
+RewriteRule ^feature_article/[^\.]*?([^/\.]*)/$ feature_article.php?fname=$1 [L,QSA]
+RewriteRule ^feature_article/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#executive_management.php
+RewriteRule ^executive_management$ "$0/" [R=301,L,QSA]
+RewriteRule ^executive_management/$ executive_management.php [L,QSA]
+RewriteRule ^executive_management/.*?([^\.\/]*)\.html$ executive_management.php?pname=$1 [L,QSA]
+RewriteRule ^executive_management/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ executive_management.php?d=$1$2$3 [L,QSA]
+RewriteRule ^executive_management/[^\.]*?([^/\.]*)/$ executive_management.php?fname=$1 [L,QSA]
+RewriteRule ^executive_management/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#electronic_spot_trading.php
+RewriteRule ^electronic_spot_trading$ "$0/" [R=301,L,QSA]
+RewriteRule ^electronic_spot_trading/$ electronic_spot_trading.php [L,QSA]
+RewriteRule ^electronic_spot_trading/.*?([^\.\/]*)\.html$ electronic_spot_trading.php?pname=$1 [L,QSA]
+RewriteRule ^electronic_spot_trading/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ electronic_spot_trading.php?d=$1$2$3 [L,QSA]
+RewriteRule ^electronic_spot_trading/[^\.]*?([^/\.]*)/$ electronic_spot_trading.php?fname=$1 [L,QSA]
+RewriteRule ^electronic_spot_trading/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#downloadable_form.php
+RewriteRule ^downloadable_form$ "$0/" [R=301,L,QSA]
+RewriteRule ^downloadable_form/$ downloadable_form.php [L,QSA]
+RewriteRule ^downloadable_form/.*?([^\.\/]*)\.html$ downloadable_form.php?pname=$1 [L,QSA]
+RewriteRule ^downloadable_form/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ downloadable_form.php?d=$1$2$3 [L,QSA]
+RewriteRule ^downloadable_form/[^\.]*?([^/\.]*)/$ downloadable_form.php?fname=$1 [L,QSA]
+RewriteRule ^downloadable_form/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#contact.php
+RewriteRule ^contact$ "$0/" [R=301,L,QSA]
+RewriteRule ^contact/$ contact.php [L,QSA]
+RewriteRule ^contact/.*?([^\.\/]*)\.html$ contact.php?pname=$1 [L,QSA]
+RewriteRule ^contact/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ contact.php?d=$1$2$3 [L,QSA]
+RewriteRule ^contact/[^\.]*?([^/\.]*)/$ contact.php?fname=$1 [L,QSA]
+RewriteRule ^contact/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#commodity.php
+RewriteRule ^commodity$ "$0/" [R=301,L,QSA]
+RewriteRule ^commodity/$ commodity.php [L,QSA]
+RewriteRule ^commodity/.*?([^\.\/]*)\.html$ commodity.php?pname=$1 [L,QSA]
+RewriteRule ^commodity/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ commodity.php?d=$1$2$3 [L,QSA]
+RewriteRule ^commodity/[^\.]*?([^/\.]*)/$ commodity.php?fname=$1 [L,QSA]
+RewriteRule ^commodity/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#clearing_settlement.php
+RewriteRule ^clearing_settlement$ "$0/" [R=301,L,QSA]
+RewriteRule ^clearing_settlement/$ clearing_settlement.php [L,QSA]
+RewriteRule ^clearing_settlement/.*?([^\.\/]*)\.html$ clearing_settlement.php?pname=$1 [L,QSA]
+RewriteRule ^clearing_settlement/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ clearing_settlement.php?d=$1$2$3 [L,QSA]
+RewriteRule ^clearing_settlement/[^\.]*?([^/\.]*)/$ clearing_settlement.php?fname=$1 [L,QSA]
+RewriteRule ^clearing_settlement/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#central_depository.php
+RewriteRule ^central_depository$ "$0/" [R=301,L,QSA]
+RewriteRule ^central_depository/$ central_depository.php [L,QSA]
+RewriteRule ^central_depository/.*?([^\.\/]*)\.html$ central_depository.php?pname=$1 [L,QSA]
+RewriteRule ^central_depository/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ central_depository.php?d=$1$2$3 [L,QSA]
+RewriteRule ^central_depository/[^\.]*?([^/\.]*)/$ central_depository.php?fname=$1 [L,QSA]
+RewriteRule ^central_depository/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#career.php
+RewriteRule ^career$ "$0/" [R=301,L,QSA]
+RewriteRule ^career/$ career.php [L,QSA]
+RewriteRule ^career/.*?([^\.\/]*)\.html$ career.php?pname=$1 [L,QSA]
+RewriteRule ^career/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ career.php?d=$1$2$3 [L,QSA]
+RewriteRule ^career/[^\.]*?([^/\.]*)/$ career.php?fname=$1 [L,QSA]
+RewriteRule ^career/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#brokers_list.php
+RewriteRule ^brokers_list$ "$0/" [R=301,L,QSA]
+RewriteRule ^brokers_list/$ brokers_list.php [L,QSA]
+RewriteRule ^brokers_list/.*?([^\.\/]*)\.html$ brokers_list.php?pname=$1 [L,QSA]
+RewriteRule ^brokers_list/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ brokers_list.php?d=$1$2$3 [L,QSA]
+RewriteRule ^brokers_list/[^\.]*?([^/\.]*)/$ brokers_list.php?fname=$1 [L,QSA]
+RewriteRule ^brokers_list/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#board_of_directors.php
+RewriteRule ^board_of_directors$ "$0/" [R=301,L,QSA]
+RewriteRule ^board_of_directors/$ board_of_directors.php [L,QSA]
+RewriteRule ^board_of_directors/.*?([^\.\/]*)\.html$ board_of_directors.php?pname=$1 [L,QSA]
+RewriteRule ^board_of_directors/([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ board_of_directors.php?d=$1$2$3 [L,QSA]
+RewriteRule ^board_of_directors/[^\.]*?([^/\.]*)/$ board_of_directors.php?fname=$1 [L,QSA]
+RewriteRule ^board_of_directors/[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+
+#index.php
+RewriteRule ^.*?([^\.\/]*)\.html$ ?pname=$1 [L,QSA]
+RewriteRule ^([1-2]\d{3})/(?:(0[1-9]|1[0-2])/(?:(0[1-9]|1[0-9]|2[0-9]|3[0-1])/)?)?$ ?d=$1$2$3 [L,QSA]
+RewriteRule ^[^\.]*?([^/\.]*)/$ ?fname=$1 [L,QSA]
+RewriteRule ^\w[^\.]*?([^/\.]*)$ "$0/" [R=301,L,QSA]
+</IfModule>
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 52.125.130.13
+deny from 52.125.136.199
+deny from 52.125.128.0
+deny from 52.125.129.166
+deny from 52.125.129.58
+deny from 52.125.141.41
+deny from 52.125.136.235
+deny from 52.125.129.134
+deny from 52.125.136.133
+deny from 52.125.128.94
+deny from 52.125.1.1
+deny from 52.125.1.2/31
+deny from 52.125.1.4/30
+deny from 52.125.1.8/29
+deny from 52.125.1.16/28
+deny from 52.125.1.32/27
+deny from 52.125.1.64/26
+deny from 52.125.1.128/25
+deny from 52.125.2.0/23
+deny from 52.125.4.0/22
+deny from 52.125.8.0/21
+deny from 52.125.16.0/20
+deny from 52.125.32.0/19
+deny from 52.125.64.0/18
+deny from 52.125.128.0/18
+deny from 52.125.192.0/19
+deny from 52.125.224.0/20
+deny from 52.125.240.0/21
+deny from 52.125.248.0/22
+deny from 52.125.252.0/23
+deny from 52.125.254.0/24
+deny from 52.125.255.0/30
+deny from 52.125.128.0/17

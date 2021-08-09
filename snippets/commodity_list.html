@@ -1,0 +1,65 @@
+<!-- Parallax -->
+<section id="Commodity" class="scene_area container-fluid no-padding">
+
+    <!-- Intro Text --> 
+    <div class="container Pages scene_layer" data-parallax="-0.20">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <div class="fadeInUpBig animated text-center">
+                    <h1 class="main-text"><cms:if gcx_commodity_name  ><cms:show gcx_commodity_name /> <cms:else /><cms:show k_template_title /></cms:if> | <span style="color: red;">G</span>hana <span style="color: #d79803;">C</span>ommodity E<span style="color: green;">x</span>change</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Content" class="container-fluid no-padding">
+    <div class="container">
+        <cms:pages masterpage='commodity.php' 
+                   folder=k_folder_name 
+                   start_on=k_archive_date 
+                   stop_before=k_next_archive_date 
+                   paginate='1' 
+                   limit='6' >
+            <cms:if (gcx_commodity_image eq '') && (k_total_records eq '1') && (k_absolute_count eq k_total_records)>
+                <span  class="text-danger" style="text-align: center;">No commodity available, Kindly check back later. <a class="underline" href="<cms:link 'contact.php' />">Contact us here.</a>
+            </cms:if>
+
+            <cms:if gcx_commodity_image>
+                <cms:set counter = "<cms:mod k_count '3' />" />
+                <cms:if counter eq '1' >     
+                        <div class="row news-row">
+                        <div class="col-md-4 col-sm-8 col-xs-12 news-row-column">
+                            <div class="panel news-row-panel clouds">
+                                <a href="<cms:show k_page_link />">
+                                    <img class="img-responsive panel-img news-row-column-img" src="<cms:show gcx_commodity_image />" alt="<cms:show gcx_commodity_name /> image">
+                                    <div class="panel-body clouds news-wrapper">
+                                        <div class="news-title"><cms:show gcx_commodity_name /></div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <cms:else />
+                        <div class="col-md-4 col-sm-8 col-xs-12 news-row-column">
+                            <a href="<cms:show k_page_link />">
+                                <div class="panel news-row-panel clouds">
+                                    <img class="img-responsive panel-img news-row-column-img" src="<cms:show gcx_commodity_image />" alt="<cms:show gcx_commodity_name /> image">
+                                    <div class="panel-body clouds news-wrapper">
+                                        <div class="news-title"><cms:show gcx_commodity_name /></div> 
+                                        <div class="news-date">Date : <cms:date k_page_modification_date format='jS M, Y' /></div> 
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                </cms:if>
+                <cms:if (counter eq '0') || (k_absolute_count eq k_total_records) >  
+                    </div>
+                </cms:if>
+            </cms:if>
+            <cms:if k_paginated_bottom >
+                <cms:paginator />
+            </cms:if>
+        </cms:pages>
+    </div>
+</section>

@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-md-12">
+        <cms:folders masterpage='temp_market_updates.php' hierarchical='1' exclude='gcx_market_update_folder_cocoa, gcx_market_update_folder_gold, gcx_market_update_folder_maize, gcx_market_update_folder_soy,gcx_market_update_folder_sorghum, gcx_market_update_folder_sesame'>
+            <cms:if k_folder_totalpagecount lt '1'>
+                    <h5 class="bold text-center bottom top text-danger" style="text-transform: uppercase">Commodity To Be Traded Soon. <a class="underline" href="<cms:link 'contact.php' />">Contact us here.</a></h5>
+                <cms:else/>
+
+                <cms:pages masterpage='temp_market_updates.php' folder='gcx_market_update_folder_rice' >
+                    <cms:if k_absolute_count eq '1' >
+                            <h5 class="bold text-center bottom top" style="text-transform: uppercase"><cms:show k_page_title /></h5>
+                    </cms:if>
+                </cms:pages>
+
+                <div class="row">
+                    <!-- Table -->
+                    <div class="col-md-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover ">
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Opening Price(GHC)</th>
+                                    <th>Closing Price(GHC)</th>
+                                    <th>Price Change</th>
+                                    <th>High Price</th>
+                                    <th>Low Price</th>
+                                    <!-- <th>Volume(MT)</th> -->
+                                </tr>
+                                <cms:pages masterpage='temp_market_updates.php' folder='gcx_market_update_folder_rice' >
+                                    <cms:if k_absolute_count eq '1' >
+                                            <cms:show_repeatable 'market_updates_details' >
+
+                                            <tr>
+                                                <td><cms:show gcx_market_update_symbol /></td>
+                                            <td><cms:show gcx_market_update_opening_com_price /></td>
+                                            <td><cms:show gcx_market_update_com_price /></td>
+                                                <cms:if gcx_market_update_price_change eq '2' >
+                                                    <td>-</td>
+                                                    <cms:else/>
+                                            <td><i class="fas fa-lg <cms:if gcx_market_update_price_change eq '0' >fa-caret-up<cms:else/>fa-caret-down</cms:if>" style="<cms:if gcx_market_update_price_change eq '0'>color: #00f000<cms:else/>color: #f00</cms:if>;"></i></td>
+                                            </cms:if><td><cms:show gcx_market_update_high /></td>
+                                            <td><cms:show gcx_market_update_low /></td>
+                                            <!-- <td><cms:show gcx_market_update_volume /></td> -->
+                                            </tr>
+
+                                        </cms:show_repeatable>
+                                    </cms:if>
+                                </cms:pages>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </cms:if>
+        </cms:folders>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+<!-- Parallax -->
+<section id="News" class="scene_area container-fluid no-padding">
+
+    <!-- Intro Text --> 
+    <div class="container Pages scene_layer" data-parallax="-0.20">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <div class="fadeInUpBig animated text-center">
+                    <h1 class="main-text">News | <span style="color: red;">G</span>hana <span style="color: #d79803;">C</span>ommodity E<span style="color: green;">x</span>change</h1>
+                    <p>Latest News About The GCX</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Content" class="container-fluid no-padding">
+    <div class="container">
+        <cms:pages masterpage='news.php' 
+                   folder=k_folder_name 
+                   start_on=k_archive_date 
+                   stop_before=k_next_archive_date 
+                   paginate='1' 
+                   limit='6' >
+            <cms:set counter = "<cms:mod k_count '3' />" />
+            <cms:if counter eq '1' >     
+                    <div class="row news-row">
+                    <div class="col-md-4 col-sm-8 col-xs-12 news-row-column">
+                        <div class="panel news-row-panel clouds">
+                            <a href="<cms:show k_page_link />">
+                                <img class="img-responsive panel-img news-row-column-img" src="<cms:show gcx_news_image />" alt="<cms:show k_page_title /> image">
+                                <div class="panel-body clouds news-wrapper">
+                                    <div class="news-title"><cms:excerptHTML count='24' ignore='img,table'><cms:show k_page_title /></cms:excerptHTML></div>
+                                    <div class="news-date">Date : <cms:date k_page_modification_date format='jS M, Y' /></div> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <cms:else />
+                    <div class="col-md-4 col-sm-8 col-xs-12 news-row-column">
+                        <a href="<cms:show k_page_link />">
+                            <div class="panel news-row-panel clouds">
+                                <img class="img-responsive panel-img news-row-column-img" src="<cms:show gcx_news_image />" alt="<cms:show k_page_title /> image">
+                                <div class="panel-body clouds news-wrapper">
+                                    <div class="news-title"><cms:excerptHTML count='24' ignore='img,table'><cms:show k_page_title /></cms:excerptHTML></div> 
+                                    <div class="news-date">Date : <cms:date k_page_modification_date format='jS M, Y' /></div> 
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+            </cms:if>
+            <cms:if (counter eq '0') || (k_absolute_count eq k_total_records) >  
+                </div>
+            </cms:if>
+            <cms:if k_paginated_bottom >
+                <cms:paginator />
+            </cms:if>
+        </cms:pages>
+    </div>
+</section>

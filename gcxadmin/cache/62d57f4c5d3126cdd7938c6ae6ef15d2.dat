@@ -1,0 +1,2184 @@
+a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_html";s:169279:"
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129346101-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129346101-1');
+</script>
+
+
+    <title>Ghana Commodity Exchange | Connecting Markets, Connecting People, Providing Opportunities</title>
+<!-- Meta Tags -->
+<meta charset="UTF-8">
+<meta name="author" content="Ghana Commodity Exchange">
+<meta name="dcterms.rightsHolder" content="Ghana Commodity Exchange">
+<meta name="dcterms.rights" content="All Rights Reserved. Ghana Commodity Exchange">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="The Ghana Commodity Exchange (GCX) is setup to provide a regulated market that links buyers and sellers of commodities to trade by rules while ensuring market quantity and quality, timely delivery and settlement of commodities.">
+<meta name="keywords" content="">
+<!--FACEBOOK-->
+<meta property="og:locale" content="en_US">
+<meta property="og:language" content="En">
+<meta property="og:type" content="article">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="http://.com/">
+<meta property="og:site_name" content="Ghana Commodity Exchange">
+<meta property="article:publisher" content="http://www.facebook.com/">
+<meta property="article:section" content="Home page">
+<meta property="og:image" content="http://.com/assets/img/logo.jpg">
+<!-- Favicon -->
+<link rel="shortcut icon" href="http://www.gcx.com.gh/assets/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.gcx.com.gh/assets/img/favicon.ico" type="image/x-icon">
+
+
+<!-- Bootstrap Core CSS -->
+<link href="http://www.gcx.com.gh/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Animate CSS -->
+<link href="http://www.gcx.com.gh/assets/css/animate.css" rel="stylesheet">
+
+<!-- Hover CSS -->
+<link href="http://www.gcx.com.gh/assets/css/hover-min.css" rel="stylesheet">
+
+<!-- Image CSS -->
+<link href="http://www.gcx.com.gh/assets/css/imagehover.css" rel="stylesheet">
+
+<!-- Lightbox Style -->
+<link rel="stylesheet" href="http://www.gcx.com.gh/assets/css/lightbox.css">
+
+<!-- Custom CSS -->
+<link href="http://www.gcx.com.gh/assets/css/main.css" rel="stylesheet">
+
+<!-- Data table -->
+<link href="http://www.gcx.com.gh/assets/css/dataTables.bootstrap.min.css" rel="stylesheet">    </head>
+
+<body style="display:none;" onload="document.body.style.display = ''; smoothScroll(window, parallax);">
+
+    <!-- Prelaoder 
+    <div class="preloader-background">
+        <div class="status"></div>
+    </div>--><!-- NavBar -->
+    <nav class="container-fluid navbar cd-header fadeIn animated" onmouseover="hover();" onmouseout="unhover();">
+        <!--  Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Navbar-Collapse"
+                aria-expanded="false">
+                <span class="fas fa-bars fa-3x"></span>
+            </button>
+            <a class="" href="https://gcx.com.gh/"><img id="logo" class="logo img-responsive"
+                    src="https://gcx.com.gh/assets/img/logo_white.png" alt="Ghana Commodity Exchange"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="Navbar-Collapse">
+
+            <!-- Desktop Nav -->
+            <ul id="Nav" class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+
+                <!-- Home -->
+               
+                <li><a class="" href="https://gcx.com.gh/">Home</a></li>                
+                
+                <!-- About us  -->
+                <li class="dropdown">
+                    <a href="#">About Us <i class="fas fa-angle-down"></i></a>
+
+
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>About Us</h5>
+                                    <ul>
+                                        <li><a href="http://www.gcx.com.gh/who_we_are/">Who We Are</a></li>
+                                        <li><a href="http://www.gcx.com.gh/vision_purpose/">Vision &amp; Purpose</a></li>
+                                        <li><a href="http://www.gcx.com.gh/board_of_directors/">Board of Directors</a></li>
+                                        <li><a href="http://www.gcx.com.gh/executive_management/">Executive Management</a>
+                                        </li>
+                                        <li><a href="http://www.gcx.com.gh/functional_heads/">Functional Heads</a></li>                                      
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Partners</h5>
+                                    <ul>                                        
+                                        <li><a href="https://gcx.com.gh/partners/donor-agencies/">Donor Agencies</a></li>
+                                        <li><a href="https://gcx.com.gh/partners/financial-institutions/">Financial Institutions</a></li>
+                                        <li><a href="https://gcx.com.gh/partners/government-agencies/">Government Agencies</a></li>
+                                        <li><a href="https://gcx.com.gh/partners/ngo/">Non-Governmental Organizations</a></li> 
+                                        <li ><a href="https://gcx.com.gh/partners/private-agencies/">Private Agencies</a></li>                                                                                                                                                             
+                                        <li>&nbsp;&nbsp;</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Tenders</h5>
+                                    <ul>                                        
+                                        <li><a href="https://gcx.com.gh/procurement/">Procurement Opportunities</a></li>                                                                                                                                                                                             
+                                        <li>&nbsp;&nbsp;</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Our Services -->
+                <li class="dropdown">
+                    <a href="#">Our Services <i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <h5>Services</h5>
+                                    <ul class="li-service">
+                                        <li class="service-li-gap"><a href="http://www.gcx.com.gh/services/">1. Secured Storage With Grain Testing Facilities</a></li>
+                                        <li class="service-li-gap"><a href="http://www.gcx.com.gh/services/">2. Grading to Meet National Standards</a></li>
+                                        <li class="service-li-gap"><a href="http://www.gcx.com.gh/services/">3. Reliable, Fair And Transparent Price Discovery Process</a></li>
+                                        <li class="service-li-gap"><a href="http://www.gcx.com.gh/services/">4. Settlement In Cash Within 24hrs</a></li>
+                                        <li class="service-li-gap">&nbsp;&nbsp;</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <h5><br></h5>
+                                    <ul class="li-service">                                        
+                                        <li class="service-li-gap"><a href="https://gcx.com.gh/services/?pg=2">5. Realtime Price of Market Information</a></li>
+                                        <li class="service-li-gap"><a href="https://gcx.com.gh/services/?pg=2">6. Secured And Reliable Delivery Locations</a></li>
+                                        <li class="service-li-gap"><a href="https://gcx.com.gh/services/?pg=2">7. Capacity Building For Farmers, Traders, Market Actors</a></li>
+                                        <li class="service-li-gap"><a href="https://gcx.com.gh/services/?pg=2">8. Linkages To Source Grain From The Wider West Africa And Global Community Market</a></li>                                                                                          
+                                        <li>&nbsp;&nbsp;</li>
+
+                                    </ul>
+                                </div>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- membership -->
+                <li class="dropdown">
+                    <a href="#">Membership <i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Membership Information</h5>
+                                    <ul>
+                                        <li><a href="https://gcx.com.gh/membership_process/">Application Process</a>
+                                        </li>
+                                        <li><a href="https://gcx.com.gh/membership_type/">Membership Types</a></li>
+                                        <li><a href="https://gcx.com.gh/membership_benefits/">Membership Benefits</a>
+                                        </li>
+                                        <li><a href="https://gcx.com.gh/membership_obligation/">Rights &amp;
+                                                Obligations</a></li>
+                                        <li><a href="https://gcx.com.gh/membership_list/">Membership List</a></li>
+                                        <li><a href="https://gcx.com.gh/brokers_list/">Brokers</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Application</h5>
+                                    <ul>
+                                        <li><a href="https://gcx.com.gh/membership_application_form/">Rules and Regulations</a>
+                                        </li>
+                                        <li><a href="https://gcx.com.gh/membership_application/">Application Form</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Alternative Contacts</h5>
+                                    <ul>
+                                        
+                                        <li><a href="https://gcx.com.gh/contact/">0302 937 677 Ext. 7005</a></li>
+                                        <li><a href="https://gcx.com.gh/contact/">0244 444 484</a></li>
+                                        <li><a href="https://gcx.com.gh/contact/">E-Mail: membership@gcx.com.gh</a></li>                                     
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>By Post</h5>
+                                    <ul>                                        
+                                        <li><a href="https://gcx.com.gh/contact/">The Head, Membership and Business Development</a></li>
+                                        <li><a href="https://gcx.com.gh/contact/">Ghana Commodity Exchange</a></li>
+                                        <li><a href="https://gcx.com.gh/contact/">P.O. Box CT 8720</a></li>
+                                        <li><a href=https://gcx.com.gh/contact/">Cantonments</a></li>
+                                        <li><a href="https://gcx.com.gh/contact/">Accra</a></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Market Data -->
+                <li class="dropdown">
+                    <a href="#">Market Data <i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Market Data</h5>
+                                    <ul>
+                                        <li><a class="" href="https://gcx.com.gh/market_data_downloads/">Weekly Market Prices</a></li>
+                                        <li><a class="" href="https://gcx.com.gh/market_data_downloads/">Historical Data</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Useful Links</h5>
+                                    <ul>
+                                        <li><a class="" href="https://www.mcxindia.com/home" target="_blank">MCX</a></li>
+                                        <li><a class="" href="https://www.nasdaq.com/" target="_blank">NASDAQ</a></li>
+                                        <li><a class="" href="https://www.theice.com/index" target="_blank">ICE</a></li>
+                                        <li><a class="" href="https://www.quandl.com/" target="_blank">SAFEX</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Commodities -->
+                <li class="dropdown">
+                    <a href="#">Commodities <i class="fas fa-angle-down"></i></a>
+
+
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Commodities</h5>
+                                    <ul>
+                                        <li><a href="https://gcx.com.gh/commodity/maize/">Maize</a></li>
+                                        <li><a href="https://gcx.com.gh/commodity/soya-bean/">Soya Bean</a></li>
+                                        <li><a href="https://gcx.com.gh/commodity/sorghum/">Sorghum</a></li>                                        
+                                        <li><a href="https://gcx.com.gh/commodity/sesame-seeds/">Sesame</a></li>
+                                        <li><a href="https://gcx.com.gh/commodity/rice/">Rice</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <!-- Careers -->
+                <li class="dropdown">
+                    <a href="#">Careers<i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    
+                                        <h5>Careers</h5>
+                                        <ul>
+                                            <li><a href="http://www.gcx.com.gh/career/">Job Openings</a></li>
+                                            <li><a href="http://www.gcx.com.gh/internship/">Internship</a></li>
+                                            <li><a href="http://www.gcx.com.gh/functional_areas/">Job Functional Areas</a>
+                                            </li>
+                                        </ul>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+
+                </li>
+
+
+                <!-- Media -->
+                <li class="dropdown">
+                    <a href="#">Media <i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Media</h5>
+                                    <ul>
+                                        <li><a href="https://gcx.com.gh/news/">Latest Events</a></li>
+                                        <li><a href="https://gcx.com.gh/news/">News Events</a></li>
+                                        <li><a href="https://gcx.com.gh/news/">Archives</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- Contact -->
+                <li class="dropdown">
+                    <a href="#">Contact <i class="fas fa-angle-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h5>Contact</h5>
+                                    <ul>
+                                        <li><a href="https://gcx.com.gh/contact/">Contact Us</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+
+
+
+
+            </ul>
+
+            <!-- Mobile Nav -->
+            <ul id="Nav" class="nav navbar-nav navbar-right hidden-lg hidden-md">
+                <li><a class="" href="https://gcx.com.gh/">Home</a></li>
+                <li><a class="" href="https://gcx.com.gh/who_we_are/">About Us</a></li>
+                <li><a class="" href="https://gcx.com.gh/services/">Our Services</a></li>
+                <li><a class="" href="https://gcx.com.gh/membership_process/">Membership</a></li>
+                <li><a class="" href="https://gcx.com.gh/market_data_downloads/">Market Data</a></li>
+                <li><a class="" href="https://gcx.com.gh/commodity/">Commodities</a></li>
+                <li><a class="" href="https://gcx.com.gh/career/">Careers</a></li>
+                <li><a class="" href="https://gcx.com.gh/news/">Media</a></li>
+                <li><a class="" href="https://gcx.com.gh/contact/">Contact</a></li>
+
+                <!-- <li><a class="" href="https://gcx.com.gh/market_intelligence/">Exchange Operations</a></li>
+                <li><a class="" href="https://gcx.com.gh/rules_regulations/">Resources</a></li> -->
+
+
+
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav><!-- Parallax -->
+<section id="Membership" class="scene_area container-fluid no-padding">
+
+    <!-- Intro Text -->
+    <div class="container Pages scene_layer" data-parallax="-0.20">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <div class="fadeInUpBig animated text-center">
+                    <h1 class="main-text">Rights &amp; Obligations  | <span style="color: red;">G</span>hana <span style="color: #d79803;">C</span>ommodity E<span style="color: green;">x</span>change</h1>
+                    <!--<p>And be part of a growing network</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Content" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <!-- Left Side Bar -->
+            <div id="Side_Bar" class="col-md-3 scrollspy">
+                <div class="list-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordionMenu" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Membership information</a></h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body-custom">
+                                <ul class="list-group">
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_process/" >Application Process</a></li>
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_type/">Membership Types</a></li>
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_benefits/" >Membership Benefits</a></li>
+                                    <li class="list-group-item active" role="presentation"><a href="http://www.gcx.com.gh/membership_obligation/" >Rights &amp; Obligations</a></li>
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_list/" >Membership List</a></li>
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/brokers_list/" >Brokers</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionMenu" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Application</a></h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body-custom">
+                                <ul class="list-group">
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_application_form/" >Rules and Regulation</a></li>
+                                    <li class="list-group-item " role="presentation"><a href="http://www.gcx.com.gh/membership_application/" >Application Form</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Bar Content -->
+            <div class="col-md-8 col-md-offset-1">
+                <div class="tab-content">
+                    <!-- Section_1 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_1">
+                                                <!-- <h3 class="lead bold"><acms:show k_page_title /></h3>-->
+                                            </div>
+
+                    <!-- Section_2 -->
+                    <div role="tabpanel" class="tab-pane fade in active" id="Section_2">
+                        <!--<h3 class="main-text"><acms:show k_page_title /></h3>-->
+                                                <p>All successful GCX members will undergo initial training on Exchange product and services, rules and regulation and trading through the Exchange.</p>
+
+<ul class="list-unstyled">
+	<li><span class="bold text-uppercase underline">1. Membership Requirement</span>
+
+	<ul>
+		<li class="bottom"><span class="bold">1.1 An applicant shall submit this application form along with the following documents, (duly attested by the applicant), which are a part of the membership criteria: </span>
+
+		<ol>
+			<li>Certified copy of Company / Cooperative Registration Certificate</li>
+			<li>Certified copy of Companies Regulations</li>
+			<li>Board Resolution on appointing authorized signatories</li>
+			<li>Education qualification certificates of authorized signatories, certified by a Notary public officer</li>
+			<li>Proof of experience of the authorized signatories in the form of CVs</li>
+			<li>Address, communication details of the authorized signatories (National ID card/ Passport copy, telephone, cell, and email.)</li>
+			<li>Bank account details and a current Bank Statement displaying the past 6 months</li>
+			<li>Copy of tax clearance certificate / VAT registration certificate</li>
+			<li>Two latest passport size colored photographs for authorized person(s)</li>
+			<li>Current police report of the authorized signatories</li>
+			<li>Latest Auditors Report; and</li>
+			<li>Any other document, as may be specified by the Exchange.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">1.2 An applicant shall submit a processing fee as specified herein the application form. In the case that this processing fee is not paid, GCX reserves the right to reject this Membership Application.</span>
+		<ol>
+			<li>GCX reserves the right to accept or reject any Membership Application, or amend the Terms and Conditions without assigning any reason whatsoever.</li>
+			<li>Membership shall be subject to renewal every two-years on GCX applicable rate.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.1 ELIGIBILITY FOR EXCHANGE MEMBERSHIP</span>
+	<ul>
+		<li class="bottom"><span class="bold">2.1.1 A business organization, Corporation, or Cooperative, may only be admitted to membership if it: </span>
+		<ol>
+			<li>Has been recognised as a market intermediary by the SEC</li>
+			<li>Is duly incorporated under the Laws of Ghana or the country in which it is registered</li>
+			<li>Complies with the capital adequacy norms as may be prescribed by the Exchange, from time to time</li>
+			<li>Complies with the membership registration requirements as may be prescribed by the Exchange from time to time</li>
+			<li>Provides a valid Tax Identification Number and Tax Clearance. If it is VAT registered, then it must also provide a VAT registration certificate</li>
+			<li>Pays Membership fees, charges, deposits and other related payments specified by the Exchange</li>
+			<li>Has produced an audited financial statement from an authorized auditor certifying the minimum requirement for net worth according to the class of Membership; and</li>
+			<li>Submits a copy of the memorandum and articles of association.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">2.1.2 An organization seeking membership in the Exchange may only be admitted to membership if the purpose for which the organization is established allows it to carry on business in commodities or to clear and settle transactions or contracts in commodities. </span></li>
+		<li class="bottom"><span class="bold">2.1.3 If there is any change in the shareholding of a member of the Exchange which is not acceptable to the Exchange, the Exchange may take such action as it may deem appropriate, including expelling the organization from membership in the Exchange. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.2 ADMISSION OF MEMBERS</span>
+	<ul>
+		<li class="bottom"><span class="bold">2.2.1 An applicant for Membership in the Exchange shall submit an application to the Exchange, providing all necessary information and documents as requested by the Exchange, together with any admission fee as determined by the Exchange. The admission fee paid by the Member shall be non-refundable. </span></li>
+		<li class="bottom"><span class="bold">2.2.2 The application shall include an undertaking, signed by a duly authorized officer of the applicant, in a form specified by the Exchange, that the organization applying for Membership agrees to be bound by these Rules and regulations and directives issued by the Exchange. </span></li>
+		<li class="bottom"><span class="bold">2.2.3 The Exchange shall consider the application and may call for any further information it considers necessary. </span></li>
+		<li class="bottom"><span class="bold">2.2.4 If an application for Membership is rejected, the Exchange will provide reasoning for its decision to reject the application within a period of fifteen (15) working days from the day that all the required application materials were received. The applicant may appeal the decision to the Board within a period of fourteen (14) working days of receiving the Exchange&rsquo;s reasoning for denial of membership. The Board shall decide at its next general or specially constituted meeting, by majority vote, whether the applicant is qualified for Membership. The decision of the Board shall be final. </span></li>
+		<li class="bottom"><span class="bold">2.2.5 In determining whether to approve an application, the Exchange shall be entitled to consider the business integrity, financial soundness and standard of training and experience of the company&rsquo;s managers and directors, partners, officers and employees, and such other matters as the Exchange regards as relevant. </span></li>
+		<li class="bottom"><span class="bold">2.2.6 The Exchange shall be entitled to investigate issues related to the financial and managerial integrity of applicants for membership through on-site visits, interviews, document authentication, and other measures necessary to verify the information provided in the application. </span></li>
+		<li class="bottom"><span class="bold">2.2.7 An applicant may, during the admission process, appear personally before the Board or any Committee thereof, for an interview or test administered by the Exchange as may be prescribed. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.3 RIGHTS AND PRIVILEGES OF MEMBERS </span>
+	<ul>
+		<li class="bottom"><span class="bold">3.4.1 Membership shall entitle a Member to certain rights and privileges, subject to these Rules and the other regulations as applicable from time to time. </span></li>
+		<li class="bottom"><span class="bold">3.4.2 Membership of the Exchange shall entitle a Member to access to organized commodity trading. </span></li>
+		<li class="bottom"><span class="bold">3.4.3 Membership of the Exchange shall entitle a Member to some access to data disseminated by the Exchange. </span></li>
+		<li class="bottom"><span class="bold">3.4.4 A Member may be invited to events hosted by the Exchange. </span></li>
+		<li class="bottom"><span class="bold">3.4.5 A Member shall have a right to advertise as an Exchange-accredited organization. </span></li>
+		<li class="bottom"><span class="bold">3.4.6 A Member shall be entitled to use the Ghana Commodity Exchange logo upon approval by the Exchange. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.4 REGISTRATION UNDER MISREPRESENTATION </span>
+	<ul>
+		<li class="bottom"><span class="bold">3.5.1 The Exchange may expel a Member if such Member has, in its application for Membership or during the course of the inquiry made by the Exchange pursuant to the application: </span>
+		<ol>
+			<li>Made any wilful misrepresentation</li>
+			<li>Suppressed or concealed any material information required of the applicant with regard to financial position, including financial liabilities, character and antecedents; or</li>
+			<li>Has directly or indirectly given false information or made a false declaration.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.5 PROCEDURE SUBSEQUENT TO ADMISSION </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.5.1 When a new Member of the Exchange is registered, the Exchange shall send verification of the registration to the Member. </span></li>
+		<li class="bottom"><span class="bold">2.5.2 Upon payment of any required fees and completion of other registration requirements as may be prescribed by these Rules, the Exchange shall issue a Certificate of Membership, membership number and ID Card under the common seal of the Exchange to the newly registered Member. </span></li>
+		<li class="bottom"><span class="bold">2.5.3 If a Certificate or ID card is lost, destroyed, defaced or damaged, the Exchange may issue a new Certificate or ID card under the condition that the damaged certificate or ID card is returned to the Exchange, or proof of the destruction or loss of the original certificate or ID card is presented to the Exchange. The Exchange may require the Member to pay a replacement fee before the issue of any such duplicate certificate or ID card is given out. </span></li>
+		<li class="bottom"><span class="bold">2.5.4 When a Member of the Exchange is admitted and a Certificate of Membership, membership number and ID card are issued, notice of the Member&rsquo;s admission shall be published on the notice board of the Exchange or by way of another system as determined by the Exchange. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.6 REGISTER OF MEMBERS </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.6.1 The Exchange shall maintain a register and index of Members. In the register, the Exchange shall collect and record information about the style, constitution and other specified information about the Members for the use of the Exchange. All details provided by the Members of the Exchange shall be stored appropriately and confidentially in electronic form and in hard copies. </span></li>
+		<li class="bottom"><span class="bold">i. A Member shall promptly notify the Exchange in writing about any change in the registered information within fourteen (14) working days provided by the Member of the Exchange at the time of admission or at a later stage. In the event that a Member fails to do make the required changes, the Exchange shall charge the Member a penalty or take further disciplinary action as may be required. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.7 TERMINATION OF MEMBERSHIP </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.7.1 With prior consultation and approval of the Authority; or as directed by the Authority for non-compliance or violation of the rules or the Law, the Exchange may terminate membership if any of the following circumstances occurs: </span>
+		<ol>
+			<li>Dissolution of the Member company;</li>
+			<li>Expulsion of the Member in accordance with these Rules;</li>
+			<li>Resignation by the Member in writing</li>
+			<li>The Member is declared in default in accordance with these Rules; or</li>
+			<li>Becoming ineligible for Membership under these Rules.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.8 DECLARATION OF DEFAULT </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.8.1 A Member of the Exchange shall be declared in default by the Exchange if the monies, commodities, securities and bank guarantees deposited by the Member with the Exchange are not adequate to discharge the Member&rsquo;s obligations and liabilities. A Member of the Exchange shall also be declared in default upon the occurrence of any of the following: </span>
+		<ol>
+			<li>The Member is unable to fulfil its engagements or obligations;</li>
+			<li>If an instruction issued by the Exchange for debiting the Member&rsquo;s account towards settlement of a trade fails because of insufficient funds in its designated bank account;</li>
+			<li>If a Member fails to pay damages or the money difference due on a closing out effected against him under these Rules</li>
+			<li>If a Member fails to pay any sum due to the Clearing House or fails to deliver to the Clearing House any commodity or instrument when it is due</li>
+			<li>If a Member fails to pay or deliver money, commodities or instruments arising out of an award given by an Arbitrator under the Arbitration proceedings provided for in these Rules;</li>
+			<li>If a Member fails to pay or deliver money, commodities or instruments arising out of a transaction executed on the Exchange, provided the obligation is not disputed by a trading member or client</li>
+			<li>If a Member fails to pay a subscription, or any other levy as required by the Exchange for a continuous period of thirty (30) working days.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">2.8.2 In case a Member does not clear its liability on the Exchange and the amount of the liability exceeds the amount of other assets it has available with the Exchange, then the Exchange may declare the person in default until the Member clears its liabilities. </span></li>
+		<li class="bottom"><span class="bold">2.8.3 When a Member is declared in default, the Exchange shall publish a notice of default on the Exchange website. </span></li>
+		<li class="bottom"><span class="bold">2.8.4 Once a Member is declared in default, the Member shall cease to be a Member of the Exchange. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.9 THE EXCHANGE&rsquo;S RIGHTS IN LIEU OF SUSPENSION OR EXPULSION </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.9.1 With prior consultation and approval of the SEC, the Exchange may suspend a Member of the Exchange in lieu of the expulsion, or may remove Membership rights or impose a fine in lieu of suspension or expulsion. The Exchange may subject the Member to any other alternative penalty on fair and equitable terms and conditions. </span></li>
+		<li class="bottom"><span class="bold">2.9.2 With prior consultation and approval of the SEC, the Exchange may of its own motion or on appeal by a Member of the Exchange concerned in the matter, reconsider and rescind, revoke or modify a decision withdrawing any Membership rights, or fining, censuring, warning, or suspending any Member of the Exchange. </span></li>
+		<li class="bottom"><span class="bold">2.9.3 Provided that any expulsion, suspension or other penalty is imposed in accordance with the directions of the authority issued in exercise of any powers conferred on them by Law, the Exchange shall not exercise the power to rescind, revoke or modify the same, except with the previous sanction of the authority that made the original decision. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.10 EFFECT OF SUSPENSION OF MEMBER OF THE EXCHANGE </span>
+	<ul>
+		<li class="bottom"><span class="bold">2.10.1 The suspension of a Member of the Exchange shall have the following consequences: </span>
+		<ol>
+			<li>The suspended Member of the Exchange shall, during the term of its suspension, be deprived of all rights and excluded from all privileges of Membership of the Exchange;</li>
+			<li>During a suspension, a Member may be proceeded against by the Exchange or another relevant authority for any offence committed either before or after the suspension;</li>
+			<li>A suspension shall not affect the rights of the Exchange or other Members of the Exchange who are creditors of the suspended Member of the Exchange;</li>
+			<li>A suspended Member is bound to fulfil contracts outstanding at the time of its suspension; and</li>
+			<li>A suspended Member shall not, during the term of its suspension, clear or register any contracts at the Exchange, although it may, with the permission of the Exchange, close transactions outstanding at the time of its suspension through other Members of the Exchange.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.11 EFFECT OF EXPULSION OF A MEMBER OF THE EXCHANGE</span>
+	<ul>
+		<li class="bottom"><span class="bold">The expulsion of a Member of the Exchange shall have the following consequences: </span>
+		<ol>
+			<li>An expelled Member shall forfeit to the Exchange its rights and privileges as a Member of the Exchange, including any right to use or claim upon any interest in property or funds with the Exchange;</li>
+			<li>Any liability to the Exchange of an expelled Member shall continue and remain unaffected by the expulsion;</li>
+			<li>The expulsion shall not affect the rights of the Exchange or Members of the Exchange who are creditors of the expelled Member; and</li>
+			<li>The expelled Member shall be bound to fulfil transactions outstanding at the time of its expulsion and may, with the permission of the Exchange or the relevant authority, close outstanding transactions with or through other Members of the Exchange.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">2.12 COMPLIANCE WITH RULES AND CODE OF CONDUCT</span>
+	<ul>
+		<li class="bottom"><span class="bold">2.12.1 A Member shall be bound by the Code of Conduct, and any violation of the Code of Conduct gives rise to a right of suspension or expulsion. In compliance with the Code of Conduct, a Member agrees to: </span>
+		<ol>
+			<li>Ensure that its authorized representatives comply with these Rules and other regulations of the Exchange;</li>
+			<li>Notify the Exchange immediately upon becoming aware that it or its authorized representatives have breached a provision of these Rules or any other regulations or law relating to the Exchange;</li>
+			<li>Notify the Exchange immediately upon becoming aware that a regulatory body is investigating or instituting proceedings against it;</li>
+			<li>Cooperate with the Exchange or persons appointed by the Exchange in allowing the Exchange to carry out inspection of records concerning the Member&lsquo;s trading and financial position, whether on its own account or on behalf of its clients;</li>
+			<li>Comply with requests of a Settlement Bank to inspect its records, when the request is made in coordination with the Exchange;</li>
+			<li>Authorize the Exchange to provide information requested by the SEC relating to the operations of the Exchange or a Member, and outstanding obligations held by a Member.</li>
+			<li>Give access to the SEC or the Exchange to enter its offices upon request for the purposes of supervision and monitoring compliance with these Rules or any other Rules issued by the Exchange or the Authority.</li>
+			<li>Not assign any mortgage, pledge, hypothecate, or charge its rights and privileges of Membership.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">3.14 CONDUCT OF MEMBERS</span>
+	<ul>
+		<li class="bottom"><span class="bold">3.14.1 Every Member of the Exchange shall promote, to the best of its ability, the objects and interests of the Exchange and to protect and safeguard the interests of its Clients. </span></li>
+		<li class="bottom"><span class="bold">3.14.2 A Member shall be liable to expulsion, suspension or to payment of a fine for a violation of Rules. </span></li>
+		<li class="bottom"><span class="bold">3.14.3 A Member shall furnish to all potential and current clients a risk disclosure statement or other statement as prescribed by the Exchange. This statement shall contain a disclosure of the risks related to trading. </span></li>
+		<li class="bottom"><span class="bold">3.14.4 A Member shall require all clients to read and sign the risk disclosure or other required statement before agreeing to participate in trading. </span></li>
+		<li class="bottom"><span class="bold">3.14.5 A Member is responsible for knowing the contents of all Rules, notices, circulars, orders and instructions issued by the Exchange, and shall also provide all relevant information to clients before executing any order on behalf of the client. </span></li>
+		<li class="bottom"><span class="bold">3.14.6 A Member shall not encourage, abet, or allow a client to evade any financial or non-financial compliance requirement with respect to trading on the Exchange. </span></li>
+		<li class="bottom"><span class="bold">3.14.7 A Member shall provide to its clients written disclosure of information pertinent to trade as specified and required by the Exchange. </span></li>
+		<li class="bottom"><span class="bold">3.14.8 A Member shall explain the role of the Clearing House of the Exchange and the scope and benefits of the same to its clients. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">3.15 EXPULSION, SUSPENSION, AND FINES</span>
+	<ul>
+		<li class="bottom"><span class="bold">3.15.1 The Exchange may expel, suspend, or levy a fine on a Member when the Member commits any of the following acts or omissions: </span>
+		<ol>
+			<li>Refusal to abide by an award: neglecting or refusing to submit to, abide by or carry out any award, decision or order of an arbitrator, the Exchange or the SEC, made in conformity with these Rules;</li>
+			<li>Unbecoming conduct: acting in a manner detrimental to the interests of the Exchange;</li>
+			<li>Misconduct: conducting disreputable or fraudulent transactions with any person, whether a Member or not;</li>
+			<li>Disobedience: violating, disobeying or disregarding any Law, regulation, order, ordinance or notification issued by the Authority in respect of trading in commodities;</li>
+			<li>Misinformation: publishing or permitting to be published in a newspaper, circular, or otherwise, any misrepresentation relating to the trade in any commodities that is intended to mislead Members of the Exchange or the public;</li>
+			<li>Indifference and wilful negligence: failing to comply with any notice or request made by or on behalf of the Exchange or the Authority requiring a Member to attend any meeting of the Board or management, or a request to produce any books, documents, correspondence or other papers in its possession, power or control, or for refusing or neglecting to answer a request from the Exchange or the Authority;</li>
+			<li>Failure to pay dues: failing to pay an amount due under these Rules, other regulations, or an arbitration award or under any other order of the Exchange or the Authority within ten (10) days after the amount is due;</li>
+			<li>Action detrimental to the Exchange: misconduct in dealings or relations with the Exchange;</li>
+			<li>Wilful or intentional non&ndash;fulfilment of contractual obligations: fraudulent or flagrant breach of contract, or frivolous repudiation of a contractual obligation;</li>
+			<li>Ex parte communication with an arbitrator: communicating secretly or indirectly with any arbitrator to whom a dispute has been referred under these Rules;</li>
+			<li>Wilful subversion: any conduct, act or omission knowingly carried out to subvert the objects and purposes of the Exchange or these Rules, the Business Rules of the Exchange or other relevant regulations;</li>
+			<li>Unauthorized disclosure: disclosure of one client&rsquo;s open position to other clients or Members;</li>
+			<li>Harming the reputation of the Exchange: any action which, in the opinion of the Board brings the Exchange into disrepute.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">3.15.2 If the Exchange finds sufficient reason to investigate a suspected act or omission by a Member that would rendering the Member liable to expulsion, suspension or payment of a fine, the Exchange shall give written notice to the Member to appear before the Exchange for a disciplinary hearing at a specified time. </span></li>
+		<li class="bottom"><span class="bold">3.15.3 At a disciplinary hearing, the Exchange shall hear and examine evidence or statements of the Member and any witnesses present on its behalf. The Exchange may also require the Member to produce for inspection books, documents, correspondence or papers in its possession or under its control. </span></li>
+		<li class="bottom"><span class="bold">3.15.4 The disciplinary measures shall be administered in the following manner: </span>
+		<ol>
+			<li>Whenever the Exchange finds that a Member is liable to expulsion, the Exchange may expel the Member permanently and exclude it from all rights of Membership, except the right to arbitrate matters entered into or arising prior to the expulsion. The Member shall have a right to appeal the decision of expulsion to the Authority.</li>
+			<li>Whenever the Exchange finds that a Member is liable to suspension or payment of a fine, the Exchange may suspend the Member from all rights of Membership, except the right to arbitrate matters entered into or arising prior to the suspension. Any such decision of the Exchange shall a right of appeal to the Authority</li>
+			<li>In addition to suspension or in lieu thereof, the Exchange may, at its discretion, fine a Member up to maximum amount of 50% of Membership fees.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">3.15.5 If a Member is suspended, expelled or declared in default, no other Member of the Exchange shall do business for or on behalf of the Member. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">3.16 MAINTENANCE OF ACCOUNTING RECORDS</span>
+	<ul>
+		<li class="bottom"><span class="bold">3.15.1 A Member shall maintain accounting records for a period of not less than ten (10) years that meet the following standards: </span>
+		<ol>
+			<li>Accurately record and explain the transactions and financial position of that Member; and</li>
+			<li>Enable the Exchange to easily ascertain the Member&rsquo;s compliance with these Rules.</li>
+		</ol>
+		</li>
+		<li class="bottom"><span class="bold">3.15.2 A Member shall maintain records in a form and at a location that will enable the Exchange or any other authorized body to conveniently and properly audit them. </span></li>
+	</ul>
+	</li>
+	<li><span class="bold text-uppercase underline">4. CONTRACTS</span>
+	<ul>
+		<li class="bottom"><span class="bold">4.1 A Member shall trade in contracts only as approved by the SEC and the Exchange Board of Directors. </span></li>
+		<li class="bottom"><span class="bold">4.2 Members shall be required to sign a written agreement with a client to trade a contract on behalf of a client. </span></li>
+		<li class="bottom"><span class="bold">4.3 All transactions in contracts permitted by the Board of Directors shall be cleared, registered and settled by the Exchange, and shall be subject to these Rules. </span></li>
+		<li class="bottom"><span class="bold">4.4 In respect of contracts executed by Members, the Member shall be responsible to pay all applicable fees, taxes and duties. </span></li>
+		<li class="bottom"><span class="bold">4.5 Only contracts for commodities that are authorized to be traded on the Exchange will be recognized as valid in and by the Exchange, provided the Member has enough money in its Pay-in Account to cover the transaction. </span></li>
+		<li class="bottom"><span class="bold">4.6 Trading unit, tick size, and daily position limit for a contract authorized for trading in the Exchange shall be quoted in accordance with standards specified for that contract and shall be the grade of the commodity for that contract. </span></li>
+		<li class="bottom"><span class="bold">4.7 The Exchange shall set minimum and maximum position limits for contracts relating to each commodity class traded per day or other set period. All position limit changes require the approval of the Board. </span></li>
+		<li class="bottom"><span class="bold">4.8 A transaction in contracts for commodities shall be for delivery at one or more delivery warehouses approved by the Exchange. </span></li>
+		<li class="bottom"><span class="bold">4.9 The Board shall have the right to determine, specify and modify the terms and manner of delivery of a commodity resulting from a transaction in contracts in the commodity class. </span></li>
+		<li class="bottom"><span class="bold">4.10 The Board may modify the quantity, packaging, place of delivery, discounts, premiums related to quality and delivery warehouses, tender period, certification and quotation for bids and offers. </span></li>
+		<li class="bottom"><span class="bold">4.11 Members shall only enter into contracts that the Authority and the Board of Directors has approved, and under terms and conditions approved by the Exchange. </span></li>
+	</ul>
+	</li>
+</ul>
+
+<p>Click Here To Download<a class="text-danger underline bold main-text" href="http://localhost:8888/ghcomex/downloads/GCX_Rules_Obligations.pdf" target="_blank"> a copy of the GCX Rules &amp; Obligations.</a></p>                    </div>
+
+                    <!-- Section_3 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_3">
+                        <!--<h3 class="main-text"><acms:show k_page_title /></h3>-->
+                                                                    </div>
+                    <!-- Section_4 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_4">
+                        <!--<h3 class="lead bold"><scms:show k_page_title /></h3>-->
+                                                                    </div>
+                    <!-- Section_5 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-bordered table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>Title</th>
+                                            <th>Download</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                            <tr>
+                                            <td>Membership Rules and Obligations</td>
+                                        <td><a class="text-danger underline" href="http://www.gcx.com.gh/gcxadmin/uploads/file/downloadables/gcx_rules_obligations.pdf" target="_blank">Download</a></td>
+                                        </tr>
+                                                                            <tr>
+                                            <td>Associate Member Application Requirement</td>
+                                        <td><a class="text-danger underline" href="http://www.gcx.com.gh/gcxadmin/uploads/file/downloadables/associate-member.pdf" target="_blank">Download</a></td>
+                                        </tr>
+                                                                            <tr>
+                                            <td>Trading Member Application Requirement</td>
+                                        <td><a class="text-danger underline" href="http://www.gcx.com.gh/gcxadmin/uploads/file/downloadables/trading-member.pdf" target="_blank">Download</a></td>
+                                        </tr>
+                                                                            <tr>
+                                            <td>Brokering Member Application Requirement (Non-Institutional)</td>
+                                        <td><a class="text-danger underline" href="http://www.gcx.com.gh/gcxadmin/uploads/file/downloadables/broker-membernon-institutional.pdf" target="_blank">Download</a></td>
+                                        </tr>
+                                                                            <tr>
+                                            <td>Brokering Member Application Requirement (Institutional)</td>
+                                        <td><a class="text-danger underline" href="http://www.gcx.com.gh/gcxadmin/uploads/file/downloadables/brokering-memberinstitutional.pdf" target="_blank">Download</a></td>
+                                        </tr>
+                                                                        </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section_6 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_6">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="table-responsive">
+                                    <table id="membership_list" class="table table-striped table-bordered table-condensed" >
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Industry</th>
+                                                <th>Member Type</th>
+                                                <th>Phone No.</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Shaul&nbsp;&nbsp;Hamtzani</td>
+                                                    <td>FLOUR MILLS OF GHANA LTD</td>
+                                                <td>Trading</td>
+                                                <td>0244835387</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>William&nbsp;&nbsp;Ahaidormey</td>
+                                                    <td>CROP CARE LTD.</td>
+                                                <td>Trading</td>
+                                                <td>0543630702</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Dominic&nbsp;&nbsp;Donkoh</td>
+                                                    <td>OMNIFERT LTD</td>
+                                                <td>Trading</td>
+                                                <td>0244329848/ 0248339521</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Hannan&nbsp;Abdul&nbsp;Wahab</td>
+                                                    <td>NATIONAL FOOD AND BUFFER STOCK COMPANY</td>
+                                                <td>Institutional Members</td>
+                                                <td>0244150691</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Sylvester&nbsp;Kwame&nbsp;Osei</td>
+                                                    <td>WIENCO GHANA LTD</td>
+                                                <td>Institutional Members</td>
+                                                <td>0246244148/ 0302772251</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Thomas&nbsp;W&nbsp;Bello</td>
+                                                    <td>SOYA VALUE CHAIN ASSOCIATION OF GHANA (SVCAG)</td>
+                                                <td>Associates</td>
+                                                <td>0244410049</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abdullah&nbsp;&nbsp;.</td>
+                                                    <td>COALITION OF COOPERATIVE FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0551872424</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Kwame&nbsp;&nbsp;Asiedu</td>
+                                                    <td>KUMAWU FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0555348294</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Davies&nbsp;&nbsp;Korboe</td>
+                                                    <td>NFFAWAG</td>
+                                                <td>Associates</td>
+                                                <td>0244942494</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Stella&nbsp;Wayem&nbsp;Glover</td>
+                                                    <td>MORKEMOUWONOR ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0243578893</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Frederick&nbsp;&nbsp;Adomako</td>
+                                                    <td>WENCHI MAIZE TRADERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0242847272</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Joseph&nbsp;&nbsp;Boadi</td>
+                                                    <td>ATEBUBU MAIZE FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0246935649</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Owusu&nbsp;&nbsp;Alhassan</td>
+                                                    <td>YONKODO ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0504358416</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Assumah&nbsp;&nbsp;Issahaku</td>
+                                                    <td>BONSALI FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0249418873</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Yusif&nbsp;&nbsp;Ofori</td>
+                                                    <td>NEW LIFE CASSAVA AND MAIZE FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0547501001</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Faustina&nbsp;&nbsp;Amoah</td>
+                                                    <td>MIAWANI ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0203047278</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Grace&nbsp;&nbsp;Ibrahim</td>
+                                                    <td>COOPERATIVE UNITED FARMERS</td>
+                                                <td>Associates</td>
+                                                <td>0244749884</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Joseph&nbsp;&nbsp;Asiamah</td>
+                                                    <td>ENSO NYAMEYE MAIZE ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0543658322</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Sarina&nbsp;&nbsp;Adam</td>
+                                                    <td>ENSO NYAME YE</td>
+                                                <td>Associates</td>
+                                                <td>0545452196</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Jacob&nbsp;Owusu&nbsp;Acheampong</td>
+                                                    <td>NYAME NE BOAFO FBO</td>
+                                                <td>Associates</td>
+                                                <td>0209491560</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mary&nbsp;&nbsp;Alamisi</td>
+                                                    <td>AMOAMANG ZONGO FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0249376479</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mahmud&nbsp;&nbsp;Abass</td>
+                                                    <td>KUAPAYE FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0241469555</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Peter&nbsp;&nbsp;Okrah</td>
+                                                    <td>SOUTHERN MAIZE TRADERS NETWORK (S.M.T.N)</td>
+                                                <td>Associates</td>
+                                                <td>0248267991/ 0245605610</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Bernard&nbsp;&nbsp;Kanati</td>
+                                                    <td>ASHAIMAN IRRIGATION FARMERS CO.OPERATIVE</td>
+                                                <td>Associates</td>
+                                                <td>0249472642</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Lydia&nbsp;&nbsp;Abbey</td>
+                                                    <td>GREATER ACCRA MAIZE SELLERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0244065794</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Obiri&nbsp;&nbsp;Yeboah</td>
+                                                    <td>JOY MAIZE AND TRANSPORT ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0245605610</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Titus&nbsp;Frederick&nbsp;Lutterodt</td>
+                                                    <td>OYARIFA LIVESTOCK FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0244285075</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Victoria&nbsp;&nbsp;Adongo</td>
+                                                    <td>PEASANT FARMERS ASSOC. OF GHANA</td>
+                                                <td>Associates</td>
+                                                <td>0244657451</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Sala&nbsp;&nbsp;Inusah</td>
+                                                    <td>NMOAKPAUR FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0551481096</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>John&nbsp;Kwesi&nbsp;Essel</td>
+                                                    <td>E-DAME ENTERPRISE</td>
+                                                <td>Associates</td>
+                                                <td>0242919365</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Thomas&nbsp;W&nbsp;Bello</td>
+                                                    <td>GOLDEN WEB LTD</td>
+                                                <td>Associates</td>
+                                                <td>0244410049</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Issah&nbsp;Abdul&nbsp;Hakeem</td>
+                                                    <td>GW LEGACY FARMS</td>
+                                                <td>Associates</td>
+                                                <td>0242054006</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Richard&nbsp;Asante&nbsp;Bediako</td>
+                                                    <td>ECONOMIC SUPPLIES LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0242078444</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Francis&nbsp;&nbsp;Oppong</td>
+                                                    <td>AKATE FARMS TRADING CO.LTD</td>
+                                                <td>Associates</td>
+                                                <td>0208124719 / 0322070501</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Osei&nbsp;Kwame&nbsp;Amoateng</td>
+                                                    <td>OSEI KWAME AMOATENG</td>
+                                                <td>Associates</td>
+                                                <td>0244570299</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Christian&nbsp;B&#039;hairs&nbsp;Dayibor</td>
+                                                    <td>SMART TOWN COMPANY LTD</td>
+                                                <td>Associates</td>
+                                                <td>0208941623</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mubarak&nbsp;&nbsp;Seidu</td>
+                                                    <td>ANTIKA COMPANY LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0209719953</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mohammed&nbsp;Iddrisu&nbsp;Hassan</td>
+                                                    <td>ELITE OMEGA COMPANY LTD</td>
+                                                <td>Associates</td>
+                                                <td>0205 347047/ 0243140393</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Fred&nbsp;Ntow&nbsp;Oppong</td>
+                                                    <td>OHINTAAR ENT</td>
+                                                <td>Associates</td>
+                                                <td>0200644242</td>
+                                                </tr>
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Emmanuel&nbsp;&nbsp;Ansah</td>
+                                                    <td>PAN-AFRICAN BUSINESS DEVELOPERS LTD</td>
+                                                <td>Institutional Members</td>
+                                                <td>0507237821</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Michael&nbsp;&nbsp;Anokye</td>
+                                                    <td>NEW LIFE CASSAVA AND MAIZE FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0547501001</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abdulai&nbsp;&nbsp;Kyeremeh</td>
+                                                    <td>TECHIMAN MAIZE SELLERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0266415874</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Evelyn&nbsp;&nbsp;Boateng</td>
+                                                    <td>LYNBOAT FARMS</td>
+                                                <td>Associates</td>
+                                                <td>0277158521</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Betty&nbsp;&nbsp;Abaare</td>
+                                                    <td>ZEBANGO ROYAL FARMS</td>
+                                                <td>Trading</td>
+                                                <td>0209657371</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Nicholas&nbsp;&nbsp;Newmann</td>
+                                                    <td>ECONOMIC SUPPLIES LTD</td>
+                                                <td>Associates</td>
+                                                <td>0247538155</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Kofi&nbsp;&nbsp;Amoateng</td>
+                                                    <td>OSEI KWAME AMOATENG</td>
+                                                <td>Associates</td>
+                                                <td>0240836302</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Yvonne&nbsp;&nbsp;Otoo</td>
+                                                    <td>FLOUR MILLS OF GHANA LTD</td>
+                                                <td>Trading</td>
+                                                <td>0243038318</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Johnson&nbsp;&nbsp;Kyere</td>
+                                                    <td>KWAJOHNSON &amp; SONS LTD</td>
+                                                <td>Associates</td>
+                                                <td>0271126781/0247150580</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Florence&nbsp;&nbsp;Ocran</td>
+                                                    <td>JUDAHSON FARMS</td>
+                                                <td>Trading</td>
+                                                <td>0244978741</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abena&nbsp;Setornam&nbsp;Addey</td>
+                                                    <td>ABISET PLUS ENTERPRISE</td>
+                                                <td>Associates</td>
+                                                <td>0247654919</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Tureka&nbsp;&nbsp;Chandrashekar</td>
+                                                    <td>SHREYAL LTD</td>
+                                                <td>Associates</td>
+                                                <td>0542859408</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abdulai&nbsp;&nbsp;Abdul-Rafiu</td>
+                                                    <td>SAVANNAH FARMERS MARKETING COMPANY LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0208140352</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>James&nbsp;&nbsp;Bakaponi</td>
+                                                    <td>FARANAYA AGRI BUSINESS CENTRE</td>
+                                                <td>Associates</td>
+                                                <td>0204842941/0558816695</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abubakar&nbsp;&nbsp;Mahmoud</td>
+                                                    <td>TRADE BENCH</td>
+                                                <td>Associates</td>
+                                                <td>0244680624</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Isaac&nbsp;&nbsp;Darkwah</td>
+                                                    <td>ISAAC DARKWAH ENT</td>
+                                                <td>Trading</td>
+                                                <td>0244545620</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Robert&nbsp;&nbsp;Cudjoe</td>
+                                                    <td>PAPSCOMEX LTD.</td>
+                                                <td>Trading</td>
+                                                <td>0572944246</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Samuel&nbsp;&nbsp;Andoh</td>
+                                                    <td>SAMANGE TRADING</td>
+                                                <td>Associates</td>
+                                                <td>0244955505</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Hassan&nbsp;&nbsp;Mohammed</td>
+                                                    <td>ELITE OMEGA COMPANY LTD</td>
+                                                <td>Associates</td>
+                                                <td>0266412081</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Abdul&nbsp;&nbsp;Tawfic</td>
+                                                    <td>BIG AJAR ENT.</td>
+                                                <td>Associates</td>
+                                                <td>0244680068</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Seidu&nbsp;&nbsp;Mubarak</td>
+                                                    <td>ANTIKA COMPANY LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0246199328</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Faustina&nbsp;&nbsp;Amoah</td>
+                                                    <td>HIGH &amp; MIGHTY AGRO PROCESSING COM. LTD</td>
+                                                <td>Trading</td>
+                                                <td>0248731106</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>David&nbsp;&nbsp;Yamful</td>
+                                                    <td>YAMFUL  FARMS</td>
+                                                <td>Associates</td>
+                                                <td>0249290071</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Delali&nbsp;Kwaku&nbsp;Asamany</td>
+                                                    <td>HONEYDEW FARMS COM. LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0200052215</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Rosemary&nbsp;&nbsp;Aryee</td>
+                                                    <td>LIFESTYLE FOODS COM. LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0249419444</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Iddrisu&nbsp;&nbsp;Mac-Adams</td>
+                                                    <td>MACLOG ENT.</td>
+                                                <td>Associates</td>
+                                                <td>0546509058</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Elvis&nbsp;&nbsp;Dankwa</td>
+                                                    <td>TEDFX INVESTMENTS</td>
+                                                <td>Trading</td>
+                                                <td>0243125526</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Alex&nbsp;&nbsp;Agbodza</td>
+                                                    <td>ASSEC FARMS</td>
+                                                <td>Trading</td>
+                                                <td>0243669689</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Jonas&nbsp;&nbsp;Dorho</td>
+                                                    <td>JON DOR VENTURES</td>
+                                                <td>Trading</td>
+                                                <td>0548110460</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mohammed&nbsp;Bidder&nbsp;Tainfiq</td>
+                                                    <td>GABA GHANA LTD.</td>
+                                                <td>Associates</td>
+                                                <td>0245115176</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Alberta&nbsp;&nbsp;Acheampong</td>
+                                                    <td>NMOAKPAUR FARMERS ASSOCIATION</td>
+                                                <td>Associates</td>
+                                                <td>0249772857</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Davies&nbsp;&nbsp;Korboe</td>
+                                                    <td>MANGOCITY COM LTD.</td>
+                                                <td>Trading</td>
+                                                <td>0244942494</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Mohammed&nbsp;&nbsp;Awal</td>
+                                                    <td>M.M. AWAL COM. LTD.</td>
+                                                <td>Trading</td>
+                                                <td>0246268470</td>
+                                                </tr>
+                                                                                    
+                                                                                            <tr>
+                                                    <td>Jeff&nbsp;&nbsp;Quaye</td>
+                                                    <td>OMNIFERT LTD.</td>
+                                                <td>Trading</td>
+                                                <td>0540116659</td>
+                                                </tr>
+                                                                                    
+                                                                                                                            </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Industry</th>
+                                                <th>Member Type</th>
+                                                <th>Phone No.</th>
+                                            </tr>
+                                        </tfoot>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section_7 -->
+                    <div role="tabpanel" class="tab-pane " id="Section_7">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="table-responsive">
+                                    <table id="brokers_list" class="table table-striped table-bordered table-condensed" >
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Telephone</th>
+                                                <th>Email</th>
+                                                <th>Address</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                    <tr>
+                                                <td>Ennu Commodity Brokerage</td>
+                                            <td>0503634999</td>
+                                            <td>eurassher@gmail.com</td>
+                                            <td>No. 9, Granite Court, South Circular, Cantonments, Accra.</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Faelish O Ventures</td>
+                                            <td>0244893090 / 0202262016</td>
+                                            <td>hogbah@yahoo.com</td>
+                                            <td>Accra / Bono</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>BM Petroleum/Commodity Brokerage Services</td>
+                                            <td>0242841144</td>
+                                            <td>bmbrokerage.services@yahoo.com</td>
+                                            <td>Accra, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>O&amp;G Commodities Limited</td>
+                                            <td>0507355584</td>
+                                            <td>ogcommodities@gmail.com</td>
+                                            <td>Accra, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Trip Nova Commodities Limited</td>
+                                            <td>0245148761</td>
+                                            <td>gideonasaye@yahoo.com</td>
+                                            <td>Tamale, Northern Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Ensol Recca Limited</td>
+                                            <td>-</td>
+                                            <td>kobbinah.austin@gmail.com</td>
+                                            <td><span style="font-size:11.0pt;line-height:105%;
+font-family:" calibri",sans-serif;mso-fareast-font-family:calibri;mso-fareast-theme-font:="" minor-latin;mso-ansi-language:en-us;mso-fareast-language:en-us;mso-bidi-language:="" ar-sa"="">Accra, Greater Accra Region</span></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Agrofin Company Limited</td>
+                                            <td>-</td>
+                                            <td>info@3ypc.co.uk</td>
+                                            <td><span style="font-size:11.0pt;line-height:105%;
+font-family:" calibri",sans-serif;mso-fareast-font-family:calibri;mso-fareast-theme-font:="" minor-latin;mso-ansi-language:en-us;mso-fareast-language:en-us;mso-bidi-language:="" ar-sa"="">USA</span></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Magnum House Com. Ltd.</td>
+                                            <td>0245346592</td>
+                                            <td>assampong@hotmail.com</td>
+                                            <td><span style="font-size:11.0pt;line-height:105%;
+font-family:" calibri",sans-serif;mso-fareast-font-family:calibri;mso-fareast-theme-font:="" minor-latin;mso-ansi-language:en-us;mso-fareast-language:en-us;mso-bidi-language:="" ar-sa"="">Greater Accra Region</span></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Osiboba Ent</td>
+                                            <td>0244206799</td>
+                                            <td>o@none.com</td>
+                                            <td>Central Region, Ghana</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Sherimoh Commodities</td>
+                                            <td>0246728992</td>
+                                            <td>asherifatu8@yahoo.com</td>
+                                            <td>Tudu, Accra<div>Greater Accra Region</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Farm 233</td>
+                                            <td>0244501121 / 0266783363</td>
+                                            <td>spersidis@gmail.com</td>
+                                            <td>Accra, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Prinz-Hen Ventures</td>
+                                            <td>0275777027</td>
+                                            <td>decidedhen@gmail.com</td>
+                                            <td>Madina, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Evergreen Investment Plus Limited</td>
+                                            <td>0246679051</td>
+                                            <td>faustinadarko28@yahoo.com</td>
+                                            <td>Tema, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Tribal Group Farms</td>
+                                            <td>0209305773</td>
+                                            <td>tribal_group@aol.com</td>
+                                            <td>Airport, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Complete Farmer Limited</td>
+                                            <td>0247131211</td>
+                                            <td>desmond@completefarmer.com</td>
+                                            <td>East Legon, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Sofcom Trading</td>
+                                            <td>0261982700</td>
+                                            <td>sofcomtradn@gmail.com</td>
+                                            <td>Adjiringanor, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Pison Farms</td>
+                                            <td>0262680007</td>
+                                            <td>pison.farm@gmail.com</td>
+                                            <td>Achimota, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Akanbangbem Ventures</td>
+                                            <td>0247126431</td>
+                                            <td>asuokjoseph@yahoo.com</td>
+                                            <td>Sandema, Upper East Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Doris Ameyaw</td>
+                                            <td>0244645459</td>
+                                            <td>d@gcx.com</td>
+                                            <td>Osu, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Kent Afrinal Services Limited</td>
+                                            <td>0244102524</td>
+                                            <td>kofi.ntiri@icloud.com</td>
+                                            <td>Haatso, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Emerald Empire</td>
+                                            <td>0246069556</td>
+                                            <td>eyramforfoe@gmail.com</td>
+                                            <td>Techiman, Bono East Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Commodex Investment Limited</td>
+                                            <td>0244145084</td>
+                                            <td>isamensah@gh.com</td>
+                                            <td>Weija, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Savvy Securities Limited</td>
+                                            <td>0302200748/ 0266802388</td>
+                                            <td>info@savvysecurities.com</td>
+                                            <td>Asylum Down, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Gold Suisse Capital</td>
+                                            <td>0209376463</td>
+                                            <td>peter@goldsuissebanking.com</td>
+                                            <td>3rd Floor, ARCCU House<div>Takoradi, Western Region</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>J Farmlands Limited</td>
+                                            <td>0208119715</td>
+                                            <td>jannanb@gmail.com</td>
+                                            <td>Accra, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Isaac Darkwah Enterprises</td>
+                                            <td>0244545620</td>
+                                            <td>darkwahisaac73@gmail.com</td>
+                                            <td>Techiman, Brong Ahafo Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Transformation Resources Network &amp; Initiatives Ltd. (TRENIL) Ghana Ltd.</td>
+                                            <td>0244179451</td>
+                                            <td>trenil.ghana@gmail.com</td>
+                                            <td>Asylum Down, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Papscomex Limited</td>
+                                            <td>0570465433</td>
+                                            <td>paapacud@yahoo.com</td>
+                                            <td>Sakumono, Greater Accra Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Dosonec Ltd.</td>
+                                            <td>0273635765</td>
+                                            <td>agnesaddo333@gmail.com</td>
+                                            <td>Kumasi, Ashanti Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Ascension Ventures</td>
+                                            <td>0244333825</td>
+                                            <td>kwasitumi60@gmail.com</td>
+                                            <td>Adjiriganor, East Legon<div>Accra</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>J Solutions</td>
+                                            <td>0267112851/050284970</td>
+                                            <td>jamaldeena@yahoo.com</td>
+                                            <td>Christian University College, Amrahia<div>Accra.</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Precision Farms</td>
+                                            <td>0200796635</td>
+                                            <td>cbmarfo@yahoo.co.uk</td>
+                                            <td>Okpoi Gonno, Teshie<div>Accra</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Maclog Ent.</td>
+                                            <td>0508818229</td>
+                                            <td>imacadams@yahoo.com</td>
+                                            <td>Near Wa, Upper West Region</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Akandem Farms</td>
+                                            <td>0200322609</td>
+                                            <td>akandemfarms@gmail.com</td>
+                                            <td>Bilinmonsa,&nbsp;Sandema<div>Upper East Region</div></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Keggs Distribution and Manufacturing</td>
+                                            <td>0244648906/0208833431</td>
+                                            <td>keggsgh@gmail.com</td>
+                                            <td>n/a</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>CS Supplies Ltd.</td>
+                                            <td>0277341177/0302909245</td>
+                                            <td>nanaodenehokyeremateng@gmail.com</td>
+                                            <td>East Legon, Accra.</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Informed Holdings</td>
+                                            <td>0243180374</td>
+                                            <td>info@informedmarkets.com</td>
+                                            <td><table border="0" cellpadding="0" cellspacing="0" width="195" style="border-collapse:
+ collapse;width:146pt"><tbody><tr height="20" style="height:15.0pt">
+  <td height="20" class="xl65" width="195" style="height:15.0pt;width:146pt">North
+  Dzorwulu, Accra</td></tr></tbody></table></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Comex Africa Ltd.</td>
+                                            <td>0209390517/0247702240</td>
+                                            <td>osseipoku@cliqafrica.com</td>
+                                            <td><table border="0" cellpadding="0" cellspacing="0" width="195" style="border-collapse:
+ collapse;width:146pt"><tbody><tr height="20" style="height:15.0pt">
+  <td height="20" class="xl65" width="195" style="height:15.0pt;width:146pt">6th Floor, Ghana Multimedia Center<br />Accra High St.,Accra.</td></tr></tbody></table></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Sky 3 Investment Limited</td>
+                                            <td>0508660666</td>
+                                            <td>ryankofi@yahoo.com</td>
+                                            <td>Kintampo, Brong Ahafo Region.</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Community Trust Services Ltd.</td>
+                                            <td>0244543482</td>
+                                            <td>pmaggh@gmail.com</td>
+                                            <td>East Legon - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Festival Foods Company Limited</td>
+                                            <td>0262550155</td>
+                                            <td>apokua@gmail.com</td>
+                                            <td>Abrepo - Kumasi</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Social Farm Company Limited</td>
+                                            <td>0244046334</td>
+                                            <td>info@socialfarmghana.com</td>
+                                            <td>Tudu - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Cinergy Farms &amp; Processing Ltd.</td>
+                                            <td>0243149494</td>
+                                            <td>cinergyfarms@gmail.com</td>
+                                            <td>Spintex - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Success For People Microfinance</td>
+                                            <td>0501454584/0302632622</td>
+                                            <td>eegyirtetteh@gmail.com</td>
+                                            <td>Accra High Street - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Temple Investment Ltd</td>
+                                            <td>0303931514</td>
+                                            <td>trading@templeinvest.com</td>
+                                            <td>Labone - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Bullion Securities Ltd.</td>
+                                            <td>0207258579/0540113508</td>
+                                            <td>trading@bullion.com.gh</td>
+                                            <td><span style="font-size:11.0pt;line-height:107%;font-family:
+">The Octagon - Accra</span></td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Synercate Capital Ltd.</td>
+                                            <td>0204691518/0244291518</td>
+                                            <td>Ivyhesse@synercate.com</td>
+                                            <td>Osu - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>A.G. Sasraku Investment</td>
+                                            <td>0244345707</td>
+                                            <td>akufogeorge@gmail.com</td>
+                                            <td>Dansoman Estates- Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Lynch Buffett</td>
+                                            <td>0505256414/0553434313</td>
+                                            <td>yaw.kyei@yahoo.com</td>
+                                            <td>Ashonmang Estates - Accra</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td>Pan African Business Developers Ltd.</td>
+                                            <td>0507237821/0277158521</td>
+                                            <td>info@panafricabd.com</td>
+                                            <td>H No. 100, Ato Ahoi Avenue,&nbsp;<div>West Legon, Accra<br /></div><div><br /></div></td>
+                                            </tr>
+                                                                                </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Telephone</th>
+                                                <th>Email</th>
+                                                <th>Address</th>
+                                            </tr>
+                                        </tfoot>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+    <section id="Footer" class="container-fluid no-padding">
+        <div class="container">
+            <div class="row top">
+                <div class="col-sm-2">
+                    <h5 class="bold main-text">Menu</h5><br>
+                    <ul class="list-unstyled">
+                        <li><a href="https://gcx.com.gh/">Home</a></li>
+                        <li><a href="http://www.gcx.com.gh/who_we_are/">About Us</a></li>
+                        <li><a href="http://www.gcx.com.gh/services/">Our Services</a></li>
+                        <li><a href="http://www.gcx.com.gh/membership_process/">Membership</a></li>
+                        <li><a href="http://www.gcx.com.gh/market_intelligence/">Market Data</a></li>
+                        <li><a href="http://www.gcx.com.gh/commodity/">Commodities</a></li>                        
+                        <li><a href="http://www.gcx.com.gh/career/">Careers</a></li>
+                        <li><a href="http://www.gcx.com.gh/news/">Media</a></li>
+                        <li><a href="http://www.gcx.com.gh/contact/">Contact Us</a></li>
+                        <li><a href="login" class="btn pumkin text-black btn-sm top main-text" data-toggle="modal" data-target="#Sign_In">Sign In</a></li>
+                    </ul>     
+                </div>
+                <div class="col-sm-3">
+                    <h5 class="bold main-text">Useful Links</h5><br>
+                    <ul class="list-unstyled">
+                        <li><a href="http://www.gcx.com.gh/commodity/">Commodities</a></li>
+                        <li><a href="http://www.gcx.com.gh/membership_type/">Membership Types</a></li>
+                        <li><a href="http://www.gcx.com.gh/membership_process/">Membership Application Process</a></li>
+                        <li><a href="http://www.gcx.com.gh/membership_application_form/">Application Forms</a></li>
+                        <li><a href="http://www.gcx.com.gh/membership_process/">GCX Resources</a></li>
+                        <li><a href="http://www.gcx.com.gh/rules_regulations/">Rules &amp; Regulations</a></li>
+                        <li><a href="http://www.gcx.com.gh/procurement/">Procurement</a></li>
+                        <li><a href="http://www.gcx.com.gh/news/">News</a></li>
+                    </ul>     
+                </div>
+                <div class="col-sm-3 col-md-offset-1">
+                    <h5 class="bold main-text">Location</h5><br>
+                    <address class="bottom">
+                        <p>2nd Floor - Export Trade House,</p>
+
+<p>Corner of Cruickshank and Liberia Road</p>
+
+<p>Ridge, Accra</p>
+
+<p>Ghana - West Africa</p>
+
+<p><strong>Digital Address :&nbsp;</strong>GA-077-0681</p>                    </address> 
+                </div>
+                <div class="col-sm-3">
+                    <h5 class="bold main-text">Contact Us</h5><br>
+                    <address class="bottom">
+                        <p>P.O. Box CNT 8720<br />
+Ghana - West Africa</p>                        <a href="mailto:contact@gcx.com.gh">contact@gcx.com.gh</a><br><br>
+                    </address>
+
+                    <address class="top">
+                        <abbr title="Phone">P:</abbr> <b>0302690670 0302690674 0302690675</b><br>
+                    </address>
+                </div>
+            </div>
+        </div>
+<!-- Copyright -->
+<div class="container-fluid black text-center">
+    <div class="container pad">
+        <ul class="social-network social-circle">
+            <li><a href="https://www.facebook.com/GCXGhana" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/@GCXGhana" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/GCXGhana" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://gh.linkedin.com/company/ghana-commodity-exchange" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p class="">Copyright &copy; 2018 - 2020 Ghana Commodity Exchange. All Rights Reserved </p>
+    </div>
+</div>
+</section><!-- Sign In -->
+<div class="modal fade" id="Sign_In" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content pad">
+            <div class="modal-header color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">Member Portal</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-pills nav-justified " role="tablist">
+                    <li role="presentation" class="active"><a href="#SignIn" aria-controls="SignIn" role="tab" data-toggle="tab">Sign In</a></li>
+                    <li role="presentation" class=""><a href="#Register" aria-controls="Register" role="tab" data-toggle="tab">Register</a></li>
+                </ul>
+
+                <div class="tab-content white pad">
+                    <div role="tabpanel" class="tab-pane fade in active" id="SignIn">
+                        <form role="form" method="POST" action="sendmail.php">
+                            <div class="form-group">
+                                <label for="Log_In_Email">Email address</label>
+                                <input type="email" class="form-control" id="Log_In_Email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Log_In_Password">Password</label>
+                                <input type="password" class="form-control" id="Log_In_Password" placeholder="Password">
+                            </div>
+                            <button type="submit" name="Log_In" class="btn btn-clean main-text">Log In</button>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Register">
+                        <p>Fill in your details and a copy of the membership form would be sent to your email. Please note that to complete registration, a fee of 50Ghs is charged upon delivery of your completed form to our office.</p>
+                        <form action="" method="post" accept-charset="utf-8" class="form" role="form">
+                            <div class="form-group">
+                                <label for="Log_In_Password">First Name</label>
+                                <input type="text" name="firstname" value="" class="form-control input-lg" placeholder="Your First Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="Log_In_Password">Last Name</label>
+                                <input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Your Last Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="Log_In_Password">Valid Email Address</label>
+                                <input type="text" name="email" value="" class="form-control input-lg" placeholder="Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="Log_In_Password">Valid Phone Number</label>
+                                <input type="text" name="number" value="" class="form-control input-lg" placeholder="Your Phone Number"/>
+                            </div>
+                            <p class="small">By clicking Register, you agree to our <a class="text-danger underline" href="javascript:void">Terms &amp; Conditions</a> and that you have read our <a class="text-danger underline" href="javascript:void">Data Use Policy</a>, including our <a class="text-danger underline" href="javascript:void">Cookie Use</a>.</p>
+                            <button name="Register" class="btn bold turquoise color main-text" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Register -->
+<div class="modal fade" id="Register_New" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content pad">
+            <div class="modal-header color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">Member Registration Portal</h4>
+            </div>
+            <div class="modal-body pad white">
+                <p>Fill in your details and a copy of the membership form would be sent to your email. Please note that to complete registration, a fee of 50Ghs is charged upon delivery of your completed form to our office.</p>
+                <form action="" method="post" accept-charset="utf-8" class="form" role="form">
+                    <div class="form-group">
+                        <label for="Log_In_Password">First Name</label>
+                        <input type="text" name="firstname" value="" class="form-control input-lg" placeholder="Your First Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Log_In_Password">Last Name</label>
+                        <input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Your Last Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Log_In_Password">Valid Email Address</label>
+                        <input type="text" name="email" value="" class="form-control input-lg" placeholder="Email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Log_In_Password">Valid Phone Number</label>
+                        <input type="text" name="number" value="" class="form-control input-lg" placeholder="Your Phone Number"/>
+                    </div>
+                    <p class="small">By clicking Register, you agree to our <a class="text-danger underline" href="javascript:void">Terms &amp; Conditions</a> and that you have read our <a class="text-danger underline" href="javascript:void">Data Use Policy</a>, including our <a class="text-danger underline" href="javascript:void">Cookie Use</a>.</p>
+                    <button name="Register" class="btn bold turquoise color main-text" type="submit">Register</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- News -->
+<div class="modal fade" id="News_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content white">
+            <div class="modal-header black5 color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">News Title</h4>
+            </div>
+            <div class="modal-body modal-scroll">
+                <img src="assets/img/news.jpg" class="modal-img img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+            </div>
+            <div class="modal-footer color black5">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="News_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content white">
+            <div class="modal-header black5 color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">GHANA COMMODITY EXCHANGE PILOTS TRADING OPERATIONS</h4>
+            </div>
+            <div class="modal-body modal-scroll">
+                <p>Kumasi (April 24, 2018) The Ghana Commodity Exchange (GCX), a trading platform for physical commodities and futures contracts, under the auspices of the Ministry of Finance, piloted trading operations on the 24th of April 2018.</p>
+                <p>The Government of Ghana’s drive to support smallholder farmers, increase value along the agricultural value chain and provide export opportunities for Ghanaian commodities, has led to its investment in GCX, in its bid to structure the commodities market towards the eventual commencement of regular formal trading. This is being done by piloting the trading of maize in certain parts of the country, with maize stored in warehouses in Bonyo/Ejura in the Ashanti region and Sandema in the Upper West region.</p>
+                <p>On 24th April 2018, GCX brought together sellers and buyers of maize from all parts of the country to participate in its first auction trade which took place in Kumasi.  126 farmers were involved and  several amongst them sold 136,000 GHS of trade during two (2) trading sessions, using a Reserve Auction trading mechanism.  Buyers of maize had the opportunity to purchase high quality maize (GCX grade 1) whilst sellers (mostly small holder farmers) received premium prices and are benefiting from access to a wider market for their goods. Both parties benefiting from low transaction costs, the model presents a sustainable alternative to low prices and margins.</p>
+                <p>The Chief Executive Officer (CEO) Dr Kadri Alfah explains, <em>“GCX initiated this pilot trading operation largely to demonstrate our structured trading concept which includes; commodity quality testing, grading, weighing, packaging and standardization, and to prepare our farmers and other market actors for our planned electronic trading and electronic warehouse receipts (e-WR) later this year. We are learning from other commodity exchanges that failed in Africa because they did not plan ahead to get the market behind them prior to the establishment of the trading platform”.</em></p>
+                <p>With many more of these trading sessions planned, GCX intends to use this initiative to educate and train market actors including farmers, farmer cooperatives, traders, brokers, financial institutions, regulators and warehouse operators to get everyone involved from the beginning.</p>
+                <p>During the first trade, farmers of White Maize were provided the opportunity to deposit their commodities, and have them graded, where they conformed to meet national and international market standards, prior to sale in a GCX Reserve Auction trading floor.  Title was transferred from sellers to buyers using highly controlled contracts. GCX has established a system of performance guarantees including guaranteeing the quality and quantity of the commodity traded, freeing the farmers from the risk of commodity losses.</p>
+                <p>According to the farmers who participated in the trade, the auction was a simple, transparent and beneficial process. They were happy to receive the support to weigh and grade their grains. Some of them said they didn’t know they had high quality grains and could receive a premium for it. They were also happy to be presented with buyers which saved them time and cost. The biggest surprise for them was that they received contracts for their trade, with the guarantee from GCX that they would receive their cash settlement within five (5) days of the trade. This is fully in line with GCX’s objectives to help farmers sell their products at fair and competitive prices by providing them with real time price and market information while facilitating their access to financial institutions for loans and financing opportunities.</p>
+                <p>GCX has come at the right time to support the Government’s “Growth and Transformation Plan” to double production of key stable crops, improve storage and improve the general wellbeing of Ghanaian farmers and the people of Ghana. GCX is expected to play a crucial role in supporting government initiatives such as the Ministry of Food and Agriculture’s “Planting for Food and Jobs” and the “One District One Warehouse” initiative. GCX will support these initiatives by collaborating to provide warehousing management and quality control systems.</p>
+                <h5 class="main-text top">About Reserve Auctions</h5>
+                <p>The GCX trading mechanism used for the pilot was a Reserve Auction. Interested buyers had the opportunity to interact with the farmers to discover prices in a fair and transparent manner. A Reserve Auction is a payment against delivery system whereby the farmers ( sellers ) announce a minimum price for their product incorporating their production cost in the sale price. The buyers then put in a bid to match the farmers’ asking price, factoring in transportation and other costs. By so doing, both the buyers and sellers hedge against their cost in a win-win situation for all.</p>
+            </div>
+            <div class="modal-footer color black5">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="News_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content white">
+            <div class="modal-header black5 color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">The Ghana Commodity Exchange (GCX) Continues Dialogue with Industry Players</h4>
+            </div>
+            <div class="modal-body modal-scroll">
+                <p><b>30th May 2018:</b> The Ghana Commodity Exchange (GCX) has brought together over forty (40) market actors from across several commodity value chains to provide inputs into the ongoing implementation phase. Members included representatives from farmer groups, aggregators, logistics companies, traders/brokers, agro-processors, manufacturers, financial institutions, insurance companies, and developmental organisations.</p>
+                <p>Representatives from the commodity value chain market actors form the GCX Market Council, who are playing key roles in the activities of the Ghana Commodity Exchange (GCX). The Council was established to solicit inputs and feedback on the various elements needed to ensure a successful implementation of the commodity exchange for Ghana.</p>
+                <p>During the session, the GCX team gave a status update on GCX activities, shared details on the GCX Membership Process and outlined the structure, rules and processes of the current trading activity that GCX was undertaking.</p>
+                <p>The GCX team explained that in its efforts at structuring the commodity market for the eventual spot trade activities later this year, the market council has a crucial role to play.</p>
+                <p>Whilst several challenges were highlighted by market council members, there were extremely positive sentiments regarding the role of the Exchange and a commitment by council members to champion the cause, providing insights and actions towards contributing to a successful establishment of the Exchange.</p>
+                <p>The GCX, in April of this year, commenced maize trading in spots through auctions (reserve). The owner of Akandem Farms, Mr. Maxwell Akandem shared his experience from one of these recent trade activities through the GCX, expressing his delight at the efficiency of the trading and the speed with which he received his cash settlement for his commodity sold.</p>
+                <p>On sustainability of the GCX, the council members opined the need for the GCX to ensure that operations would be continuously strengthened to help the nation deliver on its mandate towards greater financial inclusion, particularly regarding famers, and that the value chain as a whole would provide the ripple benefits expected.</p>
+                <p>Council members advocated a well thought out plan regarding transportation and other logistics, since that is a source of loss of goods, be it through theft, damage, or time lost. The GCX was urged to develop criteria or standards in the transportation chain in order to reduce potential frictions between truck owners and goods owners.</p>
+                <p>On the subject of the state of warehouse infrastructure across the country, council members requested the GCX to take practical steps to increase current stock by renovating and equipping warehouses with the right tools to enable farmers and producers of agricultural produce to have access to and use of the facilities. This will help reduce post-harvest losses in the country.</p>
+                <p>In his closing remarks, the Chief Executive Officer (CEO) of GCX, Dr. Kadri Alfah, expressed his appreciation to the market council members for showing commitment towards the establishment of the Commodity Exchange, which is expected to be the leading Exchange in West Africa. He stated that this will be the first of many gatherings by market council members to deliberate on issues and challenges surrounding the commodity value chain.</p>
+            </div>
+            <div class="modal-footer color black5">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="News_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content white">
+            <div class="modal-header black5 color">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <h4 class="modal-title" id="myModalLabel">SEC Sensitization Forum on Commodity Exchange/ Warehouse Receipt System (WRS)</h4>
+            </div>
+            <div class="modal-body modal-scroll">
+                <p>
+                    Supported by the World Bank Group (WBG), particularly the International
+                    Finance Corporation (IFC) and support from the Swiss Secretariat for
+                    Economic Affairs (SECO). The Securities and Exchange Commission brought
+                    together eighty-one (81) key stakeholders from the Central Bank (BOG);
+                    Ghana Commodity Exchange (GCX); Financial Institutions; Ministry of Food
+                    and Agriculture (MOFA), Brokerage Firms, Insurance companies, Farmer
+                    Groups, Academia, and more, for a review of Commodity Exchange and
+                    Warehouse Receipt System at the Alisa Hotel, Accra.
+                </p>
+                <p>
+                    The Director General of SEC, Rev. Ogbamey Tetteh in his welcome address
+                    highlighted the relevance of warehousing and the need to grow the
+                    commodities market shepherded by a commodities exchange. He introduced the
+                    role of the regulator, opining that they would play a key part in building
+                    trust in the system.
+                </p>
+                <p>
+                    Dr. Langyintuo (IFC Senior Technical Specialist for the Ghana WRS Project)
+                    in his presentation on the Project, reported that trade in Africa is a big
+                    challenge because of high risks, border related difficulties, standards,
+                    policy uncertainties and export finance. He explained the role warehouse
+                    receipts play in filling the gap for trade and collateral financing.
+                </p>
+                <p>
+                    He recommended the following areas to be especially considered:
+                </p>
+                <ul>
+                    <li>
+                        Ecosystem Considerations
+                    </li>
+                    <li>
+                        Policy
+                    </li>
+                    <li>
+                        Infrastructure
+                    </li>
+                </ul>
+                <p>
+                    Dr. Langyintuo hinted that solutions could arise from friendlier tax
+                    regimes, non-discriminatory access to markets, non-interference with the
+                    functioning of the markets, honoring of internationally accepted standards,
+                    abiding by contractual undertakings, and ensuring the sector is free from
+                    corruption.
+                </p>
+                <p>
+                    Dr. Kadri Alfah (Chief Executive Officer, GCX) gave an overview of the
+                    Warehouse Receipt System and Commodity Exchange. He indicated that the
+                    Ghana Commodity Exchange operates as a market and the WRS is a key
+                    component.
+                </p>
+                <p>
+                    Dr. Alfah iterated that the Exchange’s rules are designed in the context of
+                    the Securities Industry Act and that it is a membership-based market with
+                    brokers who trade for themselves and on behalf of others. Dr. Alfah shared
+                    that the GCX has adapted its own standards for maize, rice and soy beans
+                    using the GSA standards as a benchmark.
+                </p>
+                <p>
+                    He highlighted GCX’S current situation as follows:
+                </p>
+                <p>
+                    - Identified 6 warehouses in Tamale, Wenchi, Ejura (3 warehouses) and
+                    Kumasi
+                </p>
+                <p>
+                    - 65 members, including 2 Banks and off-takers with capacity to buy
+                </p>
+                <p>
+                    - New office and trading platform almost ready
+                </p>
+                <p>
+                    - Auction traded over 6,000 mini bags (this was designed to test the system
+                    which has been successful so far)
+                </p>
+                <p>
+                    - Maize contracts designed
+                    <br/>
+                </p>
+                <p>
+                    - Capacity building of market actors has commenced (40 trained)
+                </p>
+                <p>
+                    The way forward according to Dr. Alfah is to get rules for the Exchange and
+                    WRS approved by SEC; passage of the WRS Legal Instrument (LI) and the
+                    Borrowers &amp; Lenders Bill and build capacity of bank staff and other key
+                    stakeholders.
+                </p>
+                <p>
+                    He stated that the bell for the commencement of official trading activities
+                    on the GCX platform is expected in November 2018. Finally, Dr. Alfah
+                    mentioned readiness of the warehouses; commodity price vitalities; getting
+                    interest rates below 20% for financing WHR; readiness of banks; banks
+                    accepting GCX performance bond for warehouse operations and passage of the
+                    WR and Commodity Exchanges’ regulations.
+                </p>
+                <p>
+                    On the part of SEC, Evelyn Essien (Head of Exchanges) said SEC’s
+                    regulations are aimed at controlling behaviors of Exchange actors in the
+                    commodity market. She stated that the regulatory powers would be derived
+                    from Securities Industry Law, 2016 (ACT 929) and along the line, guidelines
+                    and circulars could be issued by SEC. SEC, according to Mrs. Essien, will
+                    keep a close eye on possible market abuse and crimes under the Act such as
+                    false trading and would apply penalties and other disciplinary measures
+                    such as revocation and suspension when necessary. Mr. Caliis Baidoo (Head
+                    of Legal, SEC) shared the regulatory components of the WRS, clarifying the
+                    role the WRS played within the context of a Commodity Exchange, so that
+                    they are clearly distinguished.
+                </p>
+                <p>
+                    The session ended with a round table discussion chaired by Mr. Paul Ababio
+                    (Deputy Director General, SEC), with Mr. Robert Owoo (Project Director,
+                    GCX), Dr. A. Langyintuo and Caliis Baidoo, opening the floor for all
+                    participants to seek clarifications or share their own comments on the
+                    areas of operationalizing the WRS/ GCX; the role of technology, and other
+                    general business opportunities that would emerge as part of the Exchange
+                    ecosystem.
+                </p>
+                <p class="main-text top">About Ghana Commodity Exchange (GCX)
+                </p>
+                <p>
+                    GCX is a market / platform which brings buyers and sellers together to
+                    trade commodities including agricultural commodities, and as a body,
+                    guarantees the quantity and quality as well as prompt settlement (cash and
+                    delivery) of all products traded on the platform. This shields both buyers
+                    and sellers from physical and financial losses. GCX is regulated by the
+                    Securities and Exchange Commission and is managed by an experienced team of
+                    professionals with varied work experiences across the commodity value chain
+                    both in Ghana and abroad.
+                </p>
+
+            </div>
+            <div class="modal-footer color black5">
+                <button type="button" class="btn alizarin color pull-right" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<!-- jQuery -->
+<script type="text/javascript" defer src="http://www.gcx.com.gh/assets/js/jquery-3.3.1.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script type="text/javascript" defer src="http://www.gcx.com.gh/assets/js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<script type="text/javascript" defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<!-- Lightbox Js -->
+<script type="text/javascript" defer src="http://www.gcx.com.gh/assets/js/lightbox.js"></script>
+
+<!-- Img Holder JS -->
+<script type="text/javascript" defer src="http://www.gcx.com.gh/assets/js/holder.js"></script>
+
+<!-- data table -->
+<script defer src="http://www.gcx.com.gh/assets/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script defer src="http://www.gcx.com.gh/assets/js/dataTables.bootstrap.min.js" type="text/javascript"></script>
+
+<!-- Custom JavaScript -->
+<script defer type="text/javascript" src="http://www.gcx.com.gh/assets/js/main.js"></script>
+
+<script defer src="http://www.gcx.com.gh/assets/js/grids.min.js" type="text/javascript"></script>
+
+
+
+
+</html>
+
+<!-- Cached page served by CouchCMS - Simple Open-Source Content Management -->
+";}

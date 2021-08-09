@@ -1,0 +1,63 @@
+<div class="col-md-3">
+
+    <!-- Search Widget -->
+    <div class="panel black color">
+        <div class="panel-body">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn color black " type="button">Search</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Widget -->
+    <cms:if k_is_page >
+        <div class="panel bold">
+            <div class="panel-heading sun-flower">Latest News</div>
+            <div class="panel-body color black">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled">
+                            <cms:pages masterpage='news.php' limit='4'>
+                                <li><a href="<cms:show k_page_link />"><cms:show k_page_title /></a></li><br>
+                            </cms:pages>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </cms:if>
+    <div class="panel bold">
+        <div class="panel-heading sun-flower">Categories</div>
+        <div class="panel-body color black">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-unstyled">
+                        <cms:folders masterpage='news.php' >
+                            <li><a href="<cms:show k_folder_link />"><cms:show k_folder_title /></a></li>
+                        </cms:folders>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <cms:if k_is_page >
+        <div class="panel bold">
+            <div class="panel-heading sun-flower">Archives</div>
+            <div class="panel-body color black">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled">
+                            <cms:archives masterpage='news.php' limit='4'>
+                                <li><a href="<cms:show k_archive_link />"><cms:date k_archive_date format='F Y' /></a></li>
+                            </cms:archives>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </cms:if>
+</div>
